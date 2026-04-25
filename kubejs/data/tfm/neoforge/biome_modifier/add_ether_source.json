@@ -27,5 +27,5 @@
     "tfc:ice_sheet", "tfc:ice_sheet_mountains"
   ],
   "features": "etheria:ether_source",
-  "step": "vegetal_decoration"
+  "step": "surface_structures"
 }

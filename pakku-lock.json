@@ -132,77 +132,6 @@
             ]
         },
         {
-            "pakku_id": "5tzvM3nqUuEvrfzV",
-            "pakku_links": [
-                "urTQBfqxajqIro9F"
-            ],
-            "type": "MOD",
-            "side": "BOTH",
-            "slug": {
-                "curseforge": "create-aeronautics",
-                "modrinth": "create-aeronautics"
-            },
-            "name": {
-                "curseforge": "Create Aeronautics",
-                "modrinth": "Create Aeronautics"
-            },
-            "id": {
-                "curseforge": "676721",
-                "modrinth": "oWaK0Q19"
-            },
-            "redistributable": false,
-            "files": [
-                {
-                    "type": "curseforge",
-                    "file_name": "create-aeronautics-bundled-1.21.1-1.1.3.jar",
-                    "mc_versions": [
-                        "1.21.1"
-                    ],
-                    "loaders": [
-                        "neoforge"
-                    ],
-                    "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/7964/998/create-aeronautics-bundled-1.21.1-1.1.3.jar",
-                    "id": "7964998",
-                    "parent_id": "676721",
-                    "hashes": {
-                        "sha1": "320d5c580462fb4bdec3d99837f16e842c314ff6",
-                        "md5": "da4706d60da3d6dd27cf3e307a09d284"
-                    },
-                    "required_dependencies": [
-                        "328085",
-                        "1312371"
-                    ],
-                    "size": 33003314,
-                    "date_published": "2026-04-22T05:23:17.973Z"
-                },
-                {
-                    "type": "modrinth",
-                    "file_name": "create-aeronautics-bundled-1.21.1-1.1.3.jar",
-                    "mc_versions": [
-                        "1.21.1"
-                    ],
-                    "loaders": [
-                        "neoforge"
-                    ],
-                    "release_type": "release",
-                    "url": "https://cdn.modrinth.com/data/oWaK0Q19/versions/1sv6OtSz/create-aeronautics-bundled-1.21.1-1.1.3.jar",
-                    "id": "1sv6OtSz",
-                    "parent_id": "oWaK0Q19",
-                    "hashes": {
-                        "sha512": "94831bc4702b3864524258fa0a73a50ab3cd37e9c157b5c6688a6845b866ec5838452804050b55e490549d91dad909fc37f0d619f354c5676e2e2651b9c15ec6",
-                        "sha1": "320d5c580462fb4bdec3d99837f16e842c314ff6"
-                    },
-                    "required_dependencies": [
-                        "T9PomCSv",
-                        "LNytGWDc"
-                    ],
-                    "size": 33003314,
-                    "date_published": "2026-04-22T05:23:19.448444Z"
-                }
-            ]
-        },
-        {
             "pakku_id": "VOSvPH7lqzUFwygZ",
             "type": "MOD",
             "side": "BOTH",
@@ -828,67 +757,6 @@
                     "required_dependencies": [],
                     "size": 622582,
                     "date_published": "2026-03-03T20:06:25.035771Z"
-                }
-            ]
-        },
-        {
-            "pakku_id": "ICvlYx9M8Rtk0FT8",
-            "type": "MOD",
-            "side": "BOTH",
-            "slug": {
-                "curseforge": "goety-neoforge",
-                "modrinth": "goety-3"
-            },
-            "name": {
-                "curseforge": "Goety ",
-                "modrinth": "Goety"
-            },
-            "id": {
-                "curseforge": "1465175",
-                "modrinth": "6Km0QfHg"
-            },
-            "files": [
-                {
-                    "type": "modrinth",
-                    "file_name": "goety-3.0.11-neoforge-1.21.1.jar",
-                    "mc_versions": [
-                        "1.21.1"
-                    ],
-                    "loaders": [
-                        "neoforge"
-                    ],
-                    "release_type": "release",
-                    "url": "https://cdn.modrinth.com/data/6Km0QfHg/versions/sXeLMqnp/goety-3.0.11-neoforge-1.21.1.jar",
-                    "id": "sXeLMqnp",
-                    "parent_id": "6Km0QfHg",
-                    "hashes": {
-                        "sha512": "75d1ebea12f29c7d529b68494c63bffd5ea36fb2477b567b980656a506e702a43d02c3a258c2f88c2a0eb728c316ded9712d5dce3764861f11c6bf7a6c3b1501",
-                        "sha1": "df072c1fca41412fef51a7659a8dd408e70895e1"
-                    },
-                    "required_dependencies": [],
-                    "size": 73395452,
-                    "date_published": "2026-04-03T20:52:44.167548Z"
-                },
-                {
-                    "type": "curseforge",
-                    "file_name": "goety-3.0.11-neoforge-1.21.1.jar",
-                    "mc_versions": [
-                        "1.21.1"
-                    ],
-                    "loaders": [
-                        "neoforge"
-                    ],
-                    "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/7869/799/goety-3.0.11-neoforge-1.21.1.jar",
-                    "id": "7869799",
-                    "parent_id": "1465175",
-                    "hashes": {
-                        "sha1": "df072c1fca41412fef51a7659a8dd408e70895e1",
-                        "md5": "fc367b6bf4b9674ad6dbf9201dd959c8"
-                    },
-                    "required_dependencies": [],
-                    "size": 73395452,
-                    "date_published": "2026-04-03T20:52:31.920Z"
                 }
             ]
         },
@@ -1804,67 +1672,6 @@
             ]
         },
         {
-            "pakku_id": "urTQBfqxajqIro9F",
-            "type": "MOD",
-            "side": "BOTH",
-            "slug": {
-                "curseforge": "sable",
-                "modrinth": "sable"
-            },
-            "name": {
-                "curseforge": "Sable",
-                "modrinth": "Sable"
-            },
-            "id": {
-                "curseforge": "1312371",
-                "modrinth": "T9PomCSv"
-            },
-            "files": [
-                {
-                    "type": "curseforge",
-                    "file_name": "sable-neoforge-1.21.1-1.1.3.jar",
-                    "mc_versions": [
-                        "1.21.1"
-                    ],
-                    "loaders": [
-                        "neoforge"
-                    ],
-                    "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/7965/90/sable-neoforge-1.21.1-1.1.3.jar",
-                    "id": "7965090",
-                    "parent_id": "1312371",
-                    "hashes": {
-                        "sha1": "98b491efe417046ced3fc4b2e45f603b5007c972",
-                        "md5": "05ab0a7adf1ba38e9662d2aad220e31c"
-                    },
-                    "required_dependencies": [],
-                    "size": 24766579,
-                    "date_published": "2026-04-22T06:06:11.557Z"
-                },
-                {
-                    "type": "modrinth",
-                    "file_name": "sable-neoforge-1.21.1-1.1.3.jar",
-                    "mc_versions": [
-                        "1.21.1"
-                    ],
-                    "loaders": [
-                        "neoforge"
-                    ],
-                    "release_type": "release",
-                    "url": "https://cdn.modrinth.com/data/T9PomCSv/versions/g8CObHcP/sable-neoforge-1.21.1-1.1.3.jar",
-                    "id": "g8CObHcP",
-                    "parent_id": "T9PomCSv",
-                    "hashes": {
-                        "sha512": "8180e214681c171c9e3b7fa307f7a92bd7de0b8125d671291425f04a4ba26b408758d8ea80a6386d8e73bb1e6b02caf3f20afb9b91ecedd48c37ed44363ac961",
-                        "sha1": "98b491efe417046ced3fc4b2e45f603b5007c972"
-                    },
-                    "required_dependencies": [],
-                    "size": 24766579,
-                    "date_published": "2026-04-22T06:06:14.923033Z"
-                }
-            ]
-        },
-        {
             "pakku_id": "5Pfubn6cKvHWRVNw",
             "type": "MOD",
             "side": "CLIENT",
@@ -2069,6 +1876,29 @@
             },
             "files": [
                 {
+                    "type": "modrinth",
+                    "file_name": "toomanyrecipeviewers-0.7.3+mc.21.1.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/yFypjcfd/versions/slJJPeMk/toomanyrecipeviewers-0.7.3+mc.21.1.jar",
+                    "id": "slJJPeMk",
+                    "parent_id": "yFypjcfd",
+                    "hashes": {
+                        "sha512": "79fc75b844bc74c40e885190cdd63f6449085f388428202ae6af175081db891bce3b67d2fba6299078f45090aefbd40e2cfbffb2c4438e82b052f83013b4c774",
+                        "sha1": "266605572d63d834b99e930e477ee01b0b7082df"
+                    },
+                    "required_dependencies": [
+                        "fRiHVvU7"
+                    ],
+                    "size": 1165347,
+                    "date_published": "2026-04-25T17:03:45.565058Z"
+                },
+                {
                     "type": "curseforge",
                     "file_name": "toomanyrecipeviewers-0.7.2+mc.21.1.jar",
                     "mc_versions": [
@@ -2090,29 +1920,6 @@
                     ],
                     "size": 1165041,
                     "date_published": "2026-03-20T17:25:42.253Z"
-                },
-                {
-                    "type": "modrinth",
-                    "file_name": "toomanyrecipeviewers-0.7.2+mc.21.1.jar",
-                    "mc_versions": [
-                        "1.21.1"
-                    ],
-                    "loaders": [
-                        "neoforge"
-                    ],
-                    "release_type": "release",
-                    "url": "https://cdn.modrinth.com/data/yFypjcfd/versions/46hQ6QAt/toomanyrecipeviewers-0.7.2+mc.21.1.jar",
-                    "id": "46hQ6QAt",
-                    "parent_id": "yFypjcfd",
-                    "hashes": {
-                        "sha512": "eedff5ceaf154571eb8fa9718734d29c8ad74f32953d2e0b728f0a7dec9d094fc309a7dc05fa4ae16ceb64d8313b0f9b1bc914dfdf8de54d8ce562840037ea1e",
-                        "sha1": "a80f68d67da36e5fdf6ab6fd7390e9361133e346"
-                    },
-                    "required_dependencies": [
-                        "fRiHVvU7"
-                    ],
-                    "size": 1165041,
-                    "date_published": "2026-03-20T17:25:46.335130Z"
                 }
             ]
         },
