@@ -6,11 +6,9 @@
       "chance": 10
     },
     {
-			"type": "tfc:climate",
-			"max_temperature": -10
-		},
-		{
-			"type": "tfc:biome"
+      "type": "tfc:climate",
+      "min_temperature": 10,
+      "max_temperature": 25
 		},
     {
       "type": "minecraft:in_square"
@@ -23,6 +21,9 @@
       "type": "minecraft:random_offset",
       "xz_spread": 0,
       "y_spread": 0
+    },
+    {
+      "type": "minecraft:biome"
     }
   ]
 }
