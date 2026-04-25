@@ -773,7 +773,7 @@
         {
             "pakku_id": "z2q6XUj0r6o5H8lk",
             "type": "MOD",
-            "side": "CLIENT",
+            "side": "BOTH",
             "slug": {
                 "curseforge": "geckolib",
                 "modrinth": "geckolib"
