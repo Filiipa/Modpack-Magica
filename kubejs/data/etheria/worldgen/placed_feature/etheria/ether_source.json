@@ -6,19 +6,23 @@
       "chance": 10
     },
     {
+			"type": "tfc:climate",
+			"max_temperature": -10
+		},
+		{
+			"type": "tfc:biome"
+		},
+    {
       "type": "minecraft:in_square"
     },
     {
       "type": "minecraft:heightmap",
-      "heightmap": "MOTION_BLOCKING"
+      "heightmap": "WORLD_SURFACE"
     },
     {
       "type": "minecraft:random_offset",
       "xz_spread": 0,
-      "y_spread": -2
-    },
-    {
-      "type": "minecraft:biome"
+      "y_spread": 0
     }
   ]
 }
