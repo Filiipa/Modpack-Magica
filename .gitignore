@@ -1,0 +1,19 @@
+# Extensions
+**/*.log
+**/*.gz
+**/*.DS_Store
+**/*.jar
+**/*.mrpack
+**/*.code-workspace
+**/*.zip
+
+# Dev
+.vs/
+.vscode/
+.idea/
+kubejs/jsconfig.json
+package.g.props
+node_modules/
+Modpack-Magica.sln
+Modpack-Magica.esproj
+.env
