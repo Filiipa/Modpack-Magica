@@ -1,0 +1,19 @@
+{
+  "structures": [
+    {
+      "structure": "etheria:cryo",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "tfc:climate",
+    "salt": 22753412,
+    "spacing": 18,
+    "separation": 9,
+    "climate": {
+      "max_temperature": -5,
+      "min_rainfall": 100,
+      "max_rainfall": 500
+    }
+  }
+}

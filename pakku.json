@@ -1,0 +1,56 @@
+{
+    "name": "TerraFirmaMagica",
+    "version": "0.0.1",
+    "overrides": [
+        "config",
+        "defaultconfigs",
+        "kubejs",
+        "!kubejs/probe/**",
+        "!kubejs/assets/**",
+        "!defaultconfigs/tfc-server.toml",
+        "!config/ftbbackups2.json",
+        "!defaultconfigs/ftbranks/ranks.snbt"
+    ],
+    "server_overrides": [
+    ],
+    "client_overrides": [
+        "resourcepacks",
+        "shaderpacks",
+        "kubejs/assets/**",
+        "defaultconfigs/tfc-server.toml",
+        "config/ftbbackups2.json",
+        "defaultconfigs/ftbranks/ranks.snbt"
+    ],
+    "projects": {
+        "terrafirmacraft": {
+            "side": "BOTH"
+        },
+        "sodium": {
+            "side": "CLIENT"
+        },
+        "kubejs": {
+            "side": "BOTH"
+        },
+        "rhino": {
+            "side": "BOTH"
+        },
+        "create": {
+            "side": "BOTH"
+        },
+        "create-aeronautics": {
+            "side": "BOTH"
+        },
+        "cloth-config": {
+            "side": "BOTH"
+        },
+        "curios": {
+            "side": "BOTH"
+        },
+        "xaeros-minimap": {
+            "side": "CLIENT"
+        },
+        "xaeros-world-map": {
+            "side": "CLIENT"
+        }
+    }
+}

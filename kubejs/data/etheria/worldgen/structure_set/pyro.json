@@ -1,0 +1,19 @@
+{
+  "structures": [
+    {
+      "structure": "etheria:pyro",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "tfc:climate",
+    "salt": 23145678,
+    "spacing": 15,
+    "separation": 8,
+    "climate": {
+      "min_temperature": 25,
+      "min_rainfall": 0,
+      "max_rainfall": 200
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": [
+    "tfc:plains", "tfc:hills", "tfc:lowlands", "tfc:salt_marsh",
+    "tfc:low_canyons", "tfc:rolling_hills", "tfc:highlands",
+    "tfc:badlands", "tfc:plateau", "tfc:plateau_wide", "tfc:canyons",
+    "tfc:mountains", "tfc:old_mountains", "tfc:oceanic_mountains",
+    "tfc:guano_island", "tfc:shore", "tfc:mud_flats", "tfc:salt_flats",
+    "tfc:dune_sea", "tfc:grassy_dunes", "tfc:whorled_canyons",
+    "tfc:stair_step_canyons", "tfc:mesas", "tfc:buttes", "tfc:hoodoos",
+    "tfc:rocky_plateau", "tfc:tower_karst_plains", "tfc:tower_karst_canyons",
+    "tfc:tower_karst_hills", "tfc:tower_karst_highlands",
+    "tfc:tower_karst_lake", "tfc:tower_karst_bay", "tfc:burren_plateau",
+    "tfc:burren_badlands", "tfc:burren_badlands_tall", "tfc:burren_plains",
+    "tfc:burren_roche_moutonee", "tfc:shilin_plains", "tfc:shilin_canyons",
+    "tfc:shilin_hills", "tfc:shilin_highlands", "tfc:shilin_plateau",
+    "tfc:doline_plains", "tfc:doline_hills", "tfc:doline_rolling_hills",
+    "tfc:doline_highlands", "tfc:doline_plateau", "tfc:doline_canyons",
+    "tfc:cenote_plains", "tfc:cenote_hills", "tfc:cenote_rolling_hills",
+    "tfc:cenote_canyons", "tfc:cenote_highlands", "tfc:cenote_plateau",
+    "tfc:extreme_doline_plateau", "tfc:extreme_doline_mountains",
+    "tfc:active_shield_volcano", "tfc:dormant_shield_volcano",
+    "tfc:extinct_shield_volcano", "tfc:ancient_shield_volcano",
+    "tfc:drumlins", "tfc:tuyas", "tfc:knob_and_kettle",
+    "tfc:patterned_ground", "tfc:inverted_patterned_ground", "tfc:stone_circles",
+    "tfc:glacially_carved_mountains", "tfc:glacially_carved_oceanic_mountains",
+    "tfc:ice_sheet", "tfc:ice_sheet_mountains"
+  ],
+  "features": "etheria:ether_source",
+  "step": "vegetal_decoration"
+}
