@@ -1,0 +1,14 @@
+{
+  "type": "hexerei:dark_coven",
+  "start_pool": "hexerei:coven/dark_coven/town_centers",
+  "size": 7,
+  "max_distance_from_center": 128,
+  "biomes": "#hexerei:has_structure/dark_coven",
+  "step": "surface_structures",
+  "start_height": {
+    "absolute": 7
+  },
+  "adapt_noise": false,
+  "project_start_to_heightmap": "WORLD_SURFACE_WG",
+  "spawn_overrides": {}
+}
