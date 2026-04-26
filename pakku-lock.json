@@ -1924,6 +1924,46 @@
             ]
         },
         {
+            "pakku_id": "94KPBRXjrhN441mu",
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "curseforge": "totemic",
+                "modrinth": "totemic"
+            },
+            "name": {
+                "curseforge": "Totemic",
+                "modrinth": "Totemic Advancement Alpha"
+            },
+            "id": {
+                "curseforge": "237541",
+                "modrinth": "F9k8bSeL"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "Totemic-neoforge-1.21.1-0.12.18.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7126/951/Totemic-neoforge-1.21.1-0.12.18.jar",
+                    "id": "7126951",
+                    "parent_id": "237541",
+                    "hashes": {
+                        "sha1": "a5d26431e667de3f1b21333560a04b615cfdd268",
+                        "md5": "02c9b95afa3b0394409d870c9b8b3c4d"
+                    },
+                    "required_dependencies": [],
+                    "size": 1204753,
+                    "date_published": "2025-10-19T20:10:43.433Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "qGuj3TCZeBwhE4XC",
             "type": "MOD",
             "side": "CLIENT",
