@@ -1,8 +1,5 @@
 {
   "values": [
-    "minecraft:swamp",
-    "tfc:lowlands",
-    "tfc:salt_marsh",
-    "tfc:mud_flats"
+    "tfc:lowlands"
   ]
 }

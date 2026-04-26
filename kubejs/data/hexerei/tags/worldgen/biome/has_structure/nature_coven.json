@@ -1,9 +1,34 @@
 {
   "values": [
-    "minecraft:forest",
     "tfc:plains",
     "tfc:hills",
+    "tfc:lowlands",
     "tfc:rolling_hills",
-    "tfc:highlands"
+    "tfc:highlands",
+    "tfc:badlands",
+    "tfc:plateau",
+    "tfc:plateau_wide",
+    "tfc:plateau_lake",
+    "tfc:rocky_plateau",
+    "tfc:tower_karst_plains",
+    "tfc:tower_karst_canyons",
+    "tfc:tower_karst_hills",
+    "tfc:tower_karst_highlands",
+    "tfc:burren_plateau",
+    "tfc:burren_plains",
+    "tfc:shilin_hills",
+    "tfc:shilin_highlands",
+    "tfc:shilin_plateau",
+    "tfc:doline_plains",
+    "tfc:doline_hills",
+    "tfc:doline_rolling_hills",
+    "tfc:doline_highlands",
+    "tfc:doline_plateau",
+    "tfc:cenote_plains",
+    "tfc:cenote_hills",
+    "tfc:cenote_rolling_hills",
+    "tfc:cenote_highlands",
+    "tfc:cenote_plateau",
+    "tfc:extreme_doline_plateau"
   ]
 }
