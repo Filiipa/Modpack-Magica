@@ -1,0 +1,10 @@
+{
+
+"totemic.entry.animal_growth": "Hymn of Maturity",
+"totemic.page.animal_growth0": "The $(thing)Hymn of Maturity$() is a growth Ceremony that makes $(emph)baby animals$() grow up much faster but also triggers pregnancy for animals that are ready to mate.$(br2)If there is no male around, then the genes of the kids will be random.",
+"totemic.page.animal_growth1": "$(o)Maturity is a high price to pay for growing up",
+
+"totemic.ceremony.rain.missing": "You need %s salt to invoke rain!",
+"totemic.ceremony.animal_growth.missing": "You need %s salt to invoke the Hymn of Maturity!"
+
+}
