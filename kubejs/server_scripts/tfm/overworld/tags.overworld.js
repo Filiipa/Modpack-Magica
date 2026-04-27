@@ -9,3 +9,29 @@ function registerTFMOverworldPlacedFeatures(event) {
 	// #endregion
 
 }
+
+function registerTFMOverworldEntityTypeTags(event) {
+
+	// Tag used by TFC to control monsters spawning on the surface
+	event.add('tfc:vanilla_monsters', 'endermanoverhaul:flower_fields_enderman')
+	event.add('tfc:vanilla_monsters', 'minecraft:enderman')
+	event.add('tfc:vanilla_monsters', 'minecraft:husk')
+	event.add('tfc:vanilla_monsters', 'minecraft:drowned')
+	event.add('tfc:vanilla_monsters', 'minecraft:slime')
+
+	event.add('tfc:deals_crushing_damage', 'minecraft:husk')
+	event.add('tfc:deals_crushing_damage', 'minecraft:drowned')
+	event.add('tfc:deals_crushing_damage', 'minecraft:slime')
+
+	event.add('tfc:zombies', 'minecraft:drowned')
+	event.add('tfc:zombies', 'minecraft:zombified_piglin')
+
+	event.add('tfg:slimes', 'minecraft:slime')
+	event.add('tfg:slimes', 'minecraft:magma_cube')
+
+	// Tags for Totemic Integration
+
+	event.add('totemic:buffalo_dance_targets', 'tfc:cow')
+
+
+}

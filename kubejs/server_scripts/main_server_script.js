@@ -27,11 +27,11 @@ ServerEvents.tags('worldgen/placed_feature', event => {
 ServerEvents.tags('worldgen/biome', event => {
 	registerTFMBiomeTags(event)
 })
-
+*/
 ServerEvents.tags('entity_type', event => {
 	registerTFMEntityTypeTags(event)
 })
-
+/*
 TFCEvents.data(event => {
 	registerTFCDataForArborFirmaCraft(event)
 })
