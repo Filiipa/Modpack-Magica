@@ -1,0 +1,20 @@
+{
+    "items": [
+        { "id": "enchanted:broom", "count": 1, "custom_name": "hi" },
+        { "id": "enchanted:flying_ointment", "count": 1 }
+    ],
+    "shapes": {
+        "enchanted:small_circle": "enchanted:ritual_chalk",
+        "enchanted:medium_circle": "enchanted:ritual_chalk"
+    },
+   "entities": [
+        "minecraft:pig",
+        "minecraft:pig"
+    ],
+    "power": 2000,
+    "weather": "thundering",
+    "factory": {
+        "type": "enchanted:create_item",
+        "items": [ { "id": "enchanted:attuned_stone_charged", "count": 1 } ]
+    }
+}

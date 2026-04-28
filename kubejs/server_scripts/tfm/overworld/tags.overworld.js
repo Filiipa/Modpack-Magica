@@ -33,5 +33,14 @@ function registerTFMOverworldEntityTypeTags(event) {
 
 	event.add('totemic:buffalo_dance_targets', 'tfc:cow')
 
+}
+
+function registerTFMItemTagsOverworld(event) {
+
+	// Switch to TFC Kelp
+
+    event.add('tfm:kelps', 'tfc:plant/leafy_kelp')
+	event.add('tfm:kelps', 'tfc:plant/giant_kelp_flower')
+	event.add('tfm:kelps', 'tfc:plant/winged_kelp')
 
 }

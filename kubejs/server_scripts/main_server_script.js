@@ -1,14 +1,16 @@
 // priority: 1
 "use strict";
-/*
+
 ServerEvents.tags('item', event => {
 	registerTFMItemTags(event)
+	registerMinecraftItemTags(event)
 })
 
 ServerEvents.tags('block', event => {
-	registerTFMBlockTags(event)
+	//registerTFMBlockTags(event)
+	registerMinecraftBlockTags(event)
 })
-
+/*
 ServerEvents.tags('fluid', event => {
 	registerTFMFluidTags(event)
 })
@@ -20,7 +22,7 @@ ServerEvents.tags('worldgen/configured_feature', event => {
 ServerEvents.tags('worldgen/placed_feature', event => {
 	// Remove default veins
 	//event.removeAll('tfc:in_biome/veins')
-
+	//registerMinecraftItemTags(event)
 	registerTFMPlacedFeatures(event)
 })
 /*
@@ -35,18 +37,22 @@ ServerEvents.tags('entity_type', event => {
 TFCEvents.data(event => {
 	registerTFCDataForArborFirmaCraft(event)
 })
-
-LootJS.modifiers((event) => {
-	registerTFMLoots(event)
-});
 */
+LootJS.lootTables(event => {
+    registerTotemicLoots(event)
+})
+
 /** Correct recipe IDs to replace invalid characters */
 function linuxUnfucker(value) {
 	const str = (value === undefined || value === null) ? "" : value.toString();
 	return str.replace(/[/:\s]/g, "_");
 };
-/*
+
 ServerEvents.recipes(event => {
-	registerTFMRecipes(event)
+	//registerTFMRecipes(event)
+	registerTFMIntegrationRecipes(event)
+	registerMinecraftRecipes(event)
+	removeCreateRecipes(event)
+	registerTotemicRecipes(event)
+	registerTFCAnvilRecipes(event)
 })
-*/

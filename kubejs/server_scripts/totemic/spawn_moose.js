@@ -1,3 +1,4 @@
+/*
 let pendingMooseSpawns = []
 
 EntityEvents.spawned('totemic:buffalo', event => {
@@ -41,3 +42,4 @@ LevelEvents.tick(event => {
         )
     })
 })
+    */
