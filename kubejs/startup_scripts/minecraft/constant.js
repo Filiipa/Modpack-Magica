@@ -5,9 +5,6 @@ console.log('[TFM] globals.js loaded')
 
 global.MINECRAFT_DISABLED_ITEMS = [
 
-    // Totemic Stuffs
-    'totemic:buffalo_hide',
-
     // Infested blocks
     'minecraft:infested_stone',
     'minecraft:infested_cobblestone',
@@ -469,7 +466,6 @@ global.MINECRAFT_DISABLED_ITEMS = [
     'minecraft:lily_pad',
     'minecraft:vine',
     'minecraft:seagrass',
-    'minecraft:grass',
     'minecraft:dandelion',
     'minecraft:poppy',
     'minecraft:blue_orchid',
@@ -682,7 +678,9 @@ global.MINECRAFT_HIDED_ITEMS = [
     'minecraft:bedrock',
     'minecraft:raw_iron_block',
     'minecraft:raw_copper_block',
-    'minecraft:raw_gold_block'
+    'minecraft:raw_gold_block',
+    'totemic:buffalo_hide',
+
 ];
 
 global.VANILLA_WOOD_TYPES = [
