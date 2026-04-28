@@ -16,4 +16,6 @@ function registerHexaliaItemTags(event) {
 
     //#endregion
 
+    event.add('c:tools/igniter', )
+
 }

@@ -17,3 +17,5 @@ node_modules/
 Modpack-Magica.sln
 Modpack-Magica.esproj
 .env
+.probe
+.mixin.out
