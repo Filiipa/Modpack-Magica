@@ -16,6 +16,6 @@ function registerHexaliaItemTags(event) {
 
     //#endregion
 
-    event.add('c:tools/igniter', )
+    event.add('c:tools/igniter', "tfc:flint_and_pyrite")
 
 }
