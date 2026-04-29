@@ -16,6 +16,7 @@ function registerHexaliaItemTags(event) {
 
     //#endregion
 
+    event.add('c:salt', "tfc:powder/salt")
     event.add('c:tools/igniter', "tfc:flint_and_pyrite")
 
     const cauldronIngots = [

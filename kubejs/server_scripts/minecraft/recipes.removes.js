@@ -2,7 +2,7 @@
 "use strict";
 
 function removeMinecraftRecipes(event) {
-
+/*
 	global.MINECRAFT_DISABLED_ITEMS.forEach(item => {
 		event.remove({ input: item })
 		event.remove({ output: item })
@@ -1870,4 +1870,5 @@ function removeMinecraftRecipes(event) {
 	//#endregion
 
 	event.remove({ id: 'minecraft:armor_stand' })
+*/
 }

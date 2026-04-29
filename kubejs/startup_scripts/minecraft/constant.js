@@ -2,7 +2,7 @@
 "use strict";
 
 console.log('[TFM] globals.js loaded')
-
+/*
 global.MINECRAFT_DISABLED_ITEMS = [
 
     // Infested blocks
@@ -714,3 +714,5 @@ global.MINECRAFT_DYE_NAMES = [
     'red',
     'black'
 ];
+
+*/

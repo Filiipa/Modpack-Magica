@@ -1,0 +1,29 @@
+{
+  "assigned_items": [
+    "enchanted:enchanted_broomstick"
+  ],
+  "icon": {
+    "count": 1,
+    "id": "minecraft:carrot"
+  },
+  "pages": [
+    {
+      "components": [
+        {
+          "header": "Food Preservation",
+          "template": "modopedia:page/headered_text",
+          "text": "Through the help of this ritual you have access to a magical way to preserve your food. Adding an impressive bonus to preservation. You will require some ITEMS and one food will be preserved."
+        }
+      ]
+    },
+    {
+      "components": [
+        {
+          "rite": "tfm:preserve_food",
+          "template": "enchanted:page/rite"
+        }
+      ]
+    }
+  ],
+  "title": "Preservation"
+}

@@ -30,7 +30,7 @@ function consumeItems(items, amount) {
     })
 }
 
-// Vérifie ET consomme immédiatement à la sélection
+// Check and consumme when choosing ceremony
 function requireAndConsumeOnSelection(event, itemId, amount, langKey, range) {
     var items = findItems(event.level, event.pos, itemId, range)
     if (countItems(items) < amount) {
@@ -44,7 +44,7 @@ function requireAndConsumeOnSelection(event, itemId, amount, langKey, range) {
     return true
 }
 
-// Vérifie à la sélection — à utiliser avec consumeOnSuccess
+// Check when choosing ceremony - to use with consumeOnSuccess
 function requireOnSelection(event, itemId, amount, langKey, range) {
     var items = findItems(event.level, event.pos, itemId, range)
     if (countItems(items) < amount) {
@@ -57,7 +57,7 @@ function requireOnSelection(event, itemId, amount, langKey, range) {
     return true
 }
 
-// Consomme au succès avec double vérification — à utiliser avec requireOnSelection
+// Consumme after success but check it was there at the start and at the end - to use with requireOnSelection
 function consumeOnSuccess(event, itemId, amount, langKey, range) {
     var items = findItems(event.level, event.pos, itemId, range)
     if (countItems(items) < amount) {

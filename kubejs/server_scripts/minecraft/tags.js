@@ -5,7 +5,7 @@
  * @param {Internal.TagsEventJS} event
  */
 const registerMinecraftItemTags = (event) => {
-    
+/*
     global.MINECRAFT_DISABLED_ITEMS.forEach(item => {
         event.removeAllTagsFrom(item)
         event.add('c:hidden_from_recipe_viewers', item)
@@ -14,9 +14,9 @@ const registerMinecraftItemTags = (event) => {
     global.MINECRAFT_HIDED_ITEMS.forEach(item => {
         event.add('c:hidden_from_recipe_viewers', item)
     })
-
-    event.add('c:hidden_from_recipe_viewers', /minecraft.*potion.*/)
-
+*/
+   //event.add('c:hidden_from_recipe_viewers', /minecraft.*potion.*/)
+/*
     event.add('tfc:colored_terracotta', 'minecraft:white_terracotta')
     event.add('tfc:bells', 'minecraft:bell')
     event.add('tfc:makes_black_dye', 'minecraft:ink_sac')
@@ -31,7 +31,11 @@ const registerMinecraftItemTags = (event) => {
 /**
  * @param {Internal.TagsEventJS} event
  */
+
+}
 const registerMinecraftBlockTags = (event) => {
+
+/*
     global.MINECRAFT_DISABLED_ITEMS.forEach(item => {
         event.removeAllTagsFrom(item)
     })
@@ -49,4 +53,6 @@ const registerMinecraftBlockTags = (event) => {
     event.add('minecraft:enderman_holdable', 'tfc:pumpkin')
     event.add('minecraft:enderman_holdable', 'tfc:melon')
     event.add('minecraft:enderman_holdable', '#minecraft:leaves')
+*/
+   
 }
