@@ -55,4 +55,5 @@ ServerEvents.recipes(event => {
 	removeCreateRecipes(event)
 	registerTotemicRecipes(event)
 	registerTFCAnvilRecipes(event)
+	registerHexaliaRecipes(event)
 })
