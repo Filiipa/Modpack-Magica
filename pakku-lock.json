@@ -2394,6 +2394,77 @@
             ]
         },
         {
+            "pakku_id": "oWYH2jUfHIp8Q4cO",
+            "pakku_links": [
+                "6Dx8A9L0tMEJGwHx",
+                "VDYk9xjzUaLJklov"
+            ],
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "curseforge": "kubejs-tfc",
+                "modrinth": "kubejs-tfc"
+            },
+            "name": {
+                "curseforge": "KubeJS TFC",
+                "modrinth": "KubeJS TFC"
+            },
+            "id": {
+                "curseforge": "841001",
+                "modrinth": "mhtClB2S"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "kubejs_tfc-1.21.1-2.0.0.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7453/260/kubejs_tfc-1.21.1-2.0.0.jar",
+                    "id": "7453260",
+                    "parent_id": "841001",
+                    "hashes": {
+                        "sha1": "f89a19b1965daf6a3131e7061aaafcce152304b3",
+                        "md5": "89eff2c5ad4e99146133e712e65e78b9"
+                    },
+                    "required_dependencies": [
+                        "302973",
+                        "238086"
+                    ],
+                    "size": 703549,
+                    "date_published": "2026-01-13T04:22:05.047Z"
+                },
+                {
+                    "type": "modrinth",
+                    "file_name": "kubejs_tfc-1.21.1-2.0.0.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/mhtClB2S/versions/ildaMhZj/kubejs_tfc-1.21.1-2.0.0.jar",
+                    "id": "ildaMhZj",
+                    "parent_id": "mhtClB2S",
+                    "hashes": {
+                        "sha512": "f83e216a5a8e13acf1d99feab2a81970a361b35196e52c33839c4d0d86f91dac72d35ef545cee2cbb1b2b1316e9e46ce596350177d4fa3ac7ae697e6968144ac",
+                        "sha1": "f89a19b1965daf6a3131e7061aaafcce152304b3"
+                    },
+                    "required_dependencies": [
+                        "umyGl7zF",
+                        "JaCEZUhg"
+                    ],
+                    "size": 703549,
+                    "date_published": "2026-01-13T04:22:04.268244Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "wohFiHUEN6eyumtj",
             "type": "MOD",
             "side": "SERVER",

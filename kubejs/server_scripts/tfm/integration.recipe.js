@@ -13,4 +13,6 @@ function registerTFMIntegrationRecipes(event) {
         'minecraft:dried_kelp',            // Arg 2: the item to replace
         'tfc:food/dried_kelp'         // Arg 3: the item to replace it with
         )
+
+    event.remove({ id: 'farmersdelight:paper_from_tree_bark'})
 }

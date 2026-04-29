@@ -5,8 +5,6 @@
  * @param {Internal.TagsEventJS} event
  */
 const registerMinecraftItemTags = (event) => {
-
-    console.log('[TFM] MINECRAFT_DISABLED_ITEMS type: ' + typeof global.MINECRAFT_DISABLED_ITEMS)
     
     global.MINECRAFT_DISABLED_ITEMS.forEach(item => {
         event.removeAllTagsFrom(item)
@@ -26,6 +24,8 @@ const registerMinecraftItemTags = (event) => {
 
     event.remove('forge:gems', 'minecraft:charcoal')
     event.remove('forge:gems', 'minecraft:flint')
+
+    event.remove('c:ingots/copper', "minecraft:copper_ingot")
 }
 
 /**

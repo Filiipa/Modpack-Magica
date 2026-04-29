@@ -3,7 +3,17 @@
 
 function registerHexaliaRecipes(event) {
 
-event.replaceInput({ id: 'hexalia:small_cauldron'}, "minecraft:cobbled_deepslate", "#tfm:cauldron_ingots")
+event.remove({ id: "hexalia:small_cauldron"},)
+event.recipes.tfc.shaped('hexalia:small_cauldron', [
+		'A A',
+		'DCD',
+		'ABA'
+	], {
+		A: "#tfm:cauldron_ingots",
+		B: "#minecraft:logs",
+        C: "#minecraft:coals",
+        D: "#c:rods/copper"
+	}).id('tfm:crafting/small_cauldron')
 
 event.remove({ id: 'hexalia:ghost_fern_from_mutation' })
 event.custom({

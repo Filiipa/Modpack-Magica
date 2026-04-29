@@ -1,0 +1,15 @@
+{
+    "items": [
+        { "id": "tfc:powder/salt", "count": 3 }
+    ],
+    "shapes": {
+        "enchanted:small_circle": "enchanted:ritual_chalk"
+    },
+    "power": 1000,
+    "factory": {
+        "type": "tfm:preserve_food",
+        "radius": 4.0,
+        "max_items": 1,
+        "duration": 800
+    }
+}
