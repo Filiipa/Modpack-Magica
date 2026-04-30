@@ -1,4 +1,4 @@
-// priority: 0
+// priority: 10
 
 function registerTFMOverworldPlacedFeatures(event) {
 
@@ -42,5 +42,29 @@ function registerTFMItemTagsOverworld(event) {
     event.add('tfm:kelps', 'tfc:plant/leafy_kelp')
 	event.add('tfm:kelps', 'tfc:plant/giant_kelp_flower')
 	event.add('tfm:kelps', 'tfc:plant/winged_kelp')
+
+	// Climate Group
+
+	const tfcColdPlants = [
+    'tfc:plant/laminaria',
+    'tfc:plant/shawiash',
+    'tfc:plant/yellow_saxifrage',
+    'tfc:plant/cornflower',
+    'tfc:plant/ramunda',
+    'tfc:plant/goldenrod',
+    'tfc:plant/badderlocks',
+    'tfc:plant/labrador_tea',
+    'tfc:plant/yellow_water_lily',
+    'tfc:plant/bur_reed',
+    'tfc:plant/anemone_large_purple',
+    'tfc:plant/edelweiss',
+    'tfc:plant/tulip_white',
+    'tfc:plant/allium',
+    'tfc:plant/meads_milkweed',
+    'tfc:plant/pulsatilla',
+    'tfc:plant/tulip_pink',
+    'tfc:plant/tulip_red'
+	]
+	tfcColdPlants.forEach(item => event.add('tfm:cold_plants', item))
 
 }

@@ -3,6 +3,8 @@
 
 function registerHexaliaRecipes(event) {
 
+    registerHexaliaRemoveRecipes(event)
+
 //#region Replace Recipes with their TFC Integration
 
 // Replace recipes
@@ -66,5 +68,20 @@ event.custom({
     },
     "output": "hexalia:galeberries"
 }).id("tfm:galeberries_from_brazier")
+
+// Ritual Table
+
+event.remove({ id: 'totemic:eagle_bone_whistle'})
+event.custom({
+    "type": "hexalia:ritual_table",
+    "ingredients": [
+        { "item": "totemic:eagle_bone" },
+        { "item": "totemic:eagle_feather" },
+        { "tag": "c:strings" },
+        { "item": "hexalia:air_node"},
+        { "tag": "tfm:cold_plants"}
+    ],
+        "output":"totemic:eagle_bone_whistle"
+}).id("tfm:eagle_bone_whistle")
 
 }
