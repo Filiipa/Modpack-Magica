@@ -77,6 +77,108 @@
             ]
         },
         {
+            "pakku_id": "EKjXPNq6pXh3ic0s",
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "curseforge": "advanced-loot-info",
+                "modrinth": "advanced-loot-info"
+            },
+            "name": {
+                "curseforge": "Advanced Loot Info",
+                "modrinth": "Advanced Loot Info"
+            },
+            "id": {
+                "curseforge": "1205426",
+                "modrinth": "PEPVViac"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "AdvancedLootInfo-neoforge-1.21.1-1.10.0.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "beta",
+                    "url": "https://edge.forgecdn.net/files/8002/71/AdvancedLootInfo-neoforge-1.21.1-1.10.0.jar",
+                    "id": "8002071",
+                    "parent_id": "1205426",
+                    "hashes": {
+                        "sha1": "ea16460396d627e18f4afb417ed6b40f17621d56",
+                        "md5": "e2fb9dd729bb0c44bd2a3865de17a0c0"
+                    },
+                    "required_dependencies": [],
+                    "size": 825643,
+                    "date_published": "2026-04-27T19:59:24.580Z"
+                },
+                {
+                    "type": "modrinth",
+                    "file_name": "AdvancedLootInfo-neoforge-1.21.1-1.10.0.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "beta",
+                    "url": "https://cdn.modrinth.com/data/PEPVViac/versions/9jJT2Kmz/AdvancedLootInfo-neoforge-1.21.1-1.10.0.jar",
+                    "id": "9jJT2Kmz",
+                    "parent_id": "PEPVViac",
+                    "hashes": {
+                        "sha512": "4d6e3171771de6d03e691b26d467d21be0be1f75e46c1785453b553493a61947f20bbcab0460654027ce836395c5f0e38e7377a785e08b6f9ecea1f312bbe536",
+                        "sha1": "ea16460396d627e18f4afb417ed6b40f17621d56"
+                    },
+                    "required_dependencies": [],
+                    "size": 825643,
+                    "date_published": "2026-04-27T19:59:22.122216Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "La7MCizxN2yuM2Lm",
+            "pakku_links": [
+                "6Dx8A9L0tMEJGwHx"
+            ],
+            "type": "MOD",
+            "slug": {
+                "curseforge": "arborfirmacraft"
+            },
+            "name": {
+                "curseforge": "ArborFirmaCraft"
+            },
+            "id": {
+                "curseforge": "877545"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "afc-2.0.8-1.21.1.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7757/203/afc-2.0.8-1.21.1.jar",
+                    "id": "7757203",
+                    "parent_id": "877545",
+                    "hashes": {
+                        "sha1": "ad9efc0399fc18d10d06da56f6c820340c671f75",
+                        "md5": "a7a26b90ece8a24320df3b7fa9ed33a6"
+                    },
+                    "required_dependencies": [
+                        "302973"
+                    ],
+                    "size": 6213235,
+                    "date_published": "2026-03-14T17:07:08.663Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "mV2LZvx8zfQxmSot",
             "type": "MOD",
             "side": "SERVER",
@@ -1306,6 +1408,77 @@
             ]
         },
         {
+            "pakku_id": "0fTsBb51z3ZY8jzU",
+            "pakku_links": [
+                "6Dx8A9L0tMEJGwHx",
+                "KutjODywB8lOfIDR"
+            ],
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "curseforge": "firmalife",
+                "modrinth": "firmalife"
+            },
+            "name": {
+                "curseforge": "FirmaLife",
+                "modrinth": "Firmalife"
+            },
+            "id": {
+                "curseforge": "453394",
+                "modrinth": "5bKeBHw2"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "Firmalife-NeoForge-1.21.1-3.0.8.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7876/126/Firmalife-NeoForge-1.21.1-3.0.8.jar",
+                    "id": "7876126",
+                    "parent_id": "453394",
+                    "hashes": {
+                        "sha1": "8a71397a5d56f84f84014699199d6e70faf8ecb3",
+                        "md5": "8a3db153c813c0e4349c327b6919d16c"
+                    },
+                    "required_dependencies": [
+                        "302973",
+                        "306770"
+                    ],
+                    "size": 4444268,
+                    "date_published": "2026-04-04T21:06:09.757Z"
+                },
+                {
+                    "type": "modrinth",
+                    "file_name": "Firmalife-NeoForge-1.21.1-3.0.8.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/5bKeBHw2/versions/gZu9W4QJ/Firmalife-NeoForge-1.21.1-3.0.8.jar",
+                    "id": "gZu9W4QJ",
+                    "parent_id": "5bKeBHw2",
+                    "hashes": {
+                        "sha512": "9aef5babbe3f87d473fe92770d1d252b2c0c138c4a45f9b053b71c57571fc64e42d0cbaf7e3c9974799b0656673e434db2f9e6d8ca7270b7faa807f907395dac",
+                        "sha1": "8a71397a5d56f84f84014699199d6e70faf8ecb3"
+                    },
+                    "required_dependencies": [
+                        "JaCEZUhg",
+                        "nU0bVIaL"
+                    ],
+                    "size": 4444268,
+                    "date_published": "2026-04-04T21:06:18.831975Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "qpe5EesxVDFxCmnf",
             "pakku_links": [
                 "vfMDsqYCScSYxFW7"
@@ -2501,6 +2674,74 @@
                     "required_dependencies": [],
                     "size": 818829,
                     "date_published": "2025-11-26T15:33:46.263Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "2t6O98lYxEEOWXik",
+            "pakku_links": [
+                "VDYk9xjzUaLJklov"
+            ],
+            "type": "MOD",
+            "side": "SERVER",
+            "slug": {
+                "curseforge": "lootjs",
+                "modrinth": "lootjs"
+            },
+            "name": {
+                "curseforge": "LootJS: KubeJS Addon",
+                "modrinth": "LootJS: KubeJS Addon"
+            },
+            "id": {
+                "curseforge": "570630",
+                "modrinth": "fJFETWDN"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "lootjs-neoforge-1.21.1-3.7.0.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/8009/262/lootjs-neoforge-1.21.1-3.7.0.jar",
+                    "id": "8009262",
+                    "parent_id": "570630",
+                    "hashes": {
+                        "sha1": "54ffddd1763ae4af84e9bbcb22e4081a1e7f3556",
+                        "md5": "21d3eda21b53344dd1f34759b4428634"
+                    },
+                    "required_dependencies": [
+                        "238086"
+                    ],
+                    "size": 247689,
+                    "date_published": "2026-04-29T10:52:53.330Z"
+                },
+                {
+                    "type": "modrinth",
+                    "file_name": "lootjs-neoforge-1.21.1-3.7.0.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/fJFETWDN/versions/5AZDyUSn/lootjs-neoforge-1.21.1-3.7.0.jar",
+                    "id": "5AZDyUSn",
+                    "parent_id": "fJFETWDN",
+                    "hashes": {
+                        "sha512": "fab507e70197e74ffba43bd400066f55ef58c2f91cb213efedf4acd2a2ad7876d9de905f02788a0b6831304c2177fdc9996c435bcf855eabdb4daca7581270bc",
+                        "sha1": "54ffddd1763ae4af84e9bbcb22e4081a1e7f3556"
+                    },
+                    "required_dependencies": [
+                        "umyGl7zF"
+                    ],
+                    "size": 247689,
+                    "date_published": "2026-04-29T10:52:57.565816Z"
                 }
             ]
         },
