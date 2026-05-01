@@ -25,11 +25,11 @@ ItemEvents.modification(event => {
     registerSNSItemModifications(event)
 	registerTFGItemModifications(event)
 })
-
+*/
 StartupEvents.registry('fluid', event => {
 	registerTFGFluids(event)
 })
-
+/*
 StartupEvents.registry('sound_event', event => {
 	registerTFGSounds(event)
 	

@@ -33,11 +33,12 @@ ServerEvents.tags('worldgen/biome', event => {
 ServerEvents.tags('entity_type', event => {
 	registerTFMEntityTypeTags(event)
 })
-/*
+
 TFCEvents.data(event => {
-	registerTFCDataForArborFirmaCraft(event)
+	registerTFCEvents(event)
+	//registerTFCDataForArborFirmaCraft(event)
 })
-*/
+
 LootJS.lootTables(event => {
     registerTotemicLoots(event)
 })
@@ -49,7 +50,7 @@ function linuxUnfucker(value) {
 };
 
 ServerEvents.recipes(event => {
-	//registerTFMRecipes(event)
+	registerTFMRecipes(event)
 	registerTFMIntegrationRecipes(event)
 	registerMinecraftRecipes(event)
 	removeCreateRecipes(event)

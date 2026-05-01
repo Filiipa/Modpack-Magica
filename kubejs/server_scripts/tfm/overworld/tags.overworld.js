@@ -67,4 +67,8 @@ function registerTFMItemTagsOverworld(event) {
 	]
 	tfcColdPlants.forEach(item => event.add('tfm:cold_plants', item))
 
+	// Ingot
+
+	event.add('c:ingots', 'tfm:wood_iron')
+
 }
