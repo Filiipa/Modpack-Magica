@@ -71,4 +71,12 @@ function registerTFMItemTagsOverworld(event) {
 
 	event.add('c:ingots', 'tfm:wood_iron')
 
+	event.add('c:ingots/wood_iron', 'tfm:wood_iron')
+	event.add('c:ingots/malignant_pewter','malum:malignant_pewter_ingot')
+	event.add('c:ingots/soul_stained_steel','malum:soul_stained_steel_ingot')
+	event.add('c:ingots/hallowed_gold','malum:hallowed_gold_ingot')
+	event.add('c:ingots/arcane','irons_spellbooks:arcane_ingot')
+	event.add('c:ingots/andesite_alloy','create:andesite_alloy')
+
+
 }
