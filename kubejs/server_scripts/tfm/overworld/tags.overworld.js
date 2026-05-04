@@ -199,6 +199,12 @@ function registerTFMItemTagsOverworld(event) {
 	]
 	tfcFlowersGeneralist.forEach(item => event.add('tfm:flowers_generalist', item))
 
+	const tfcLilyPad = [
+		'tfc:plant/yellow_water_lily',
+		'tfc:plant/white_water_lily',
+		'tfc:plant/purple_water_lily']
+	tfcLilyPad.forEach(item => event.add('tfm:lily_pad', item))
+
 	// Ingot
 
 	event.add('c:ingots', 'tfm:wood_iron')
@@ -216,7 +222,9 @@ function registerTFMItemTagsOverworld(event) {
 
 }
 
-function registerTFMBlockTagsOverworld(event){
+	//#region Block Tag
+
+	function registerTFMBlockTagsOverworld(event){
 
 	const tfcGeneralPlants = [
 		'tfc:plant/orchard_grass',

@@ -61,4 +61,5 @@ ServerEvents.recipes(event => {
 	registerTFCAnvilRecipes(event)
 	registerHexaliaRecipes(event)
 	registerAFCRecipes(event)
+	registerEidolonRecipes(event)
 })
