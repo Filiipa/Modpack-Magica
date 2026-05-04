@@ -54,6 +54,7 @@ function registerTFMRecipes(event) {
         420
     )
     .itemOutput(['tfm:conifer_rosin_ball'])
+    .id('tfm:conifer_rosin_ball_from_pot')
 
     event.custom({
         "type": "firmalife:vat",
