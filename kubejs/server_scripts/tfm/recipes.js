@@ -47,5 +47,29 @@ function registerTFMRecipes(event) {
     )
     .outputs('minecraft:bread', Fluid.of('minecraft:milk', 20))
 
+    event.recipes.tfc.pot(
+        ['tfc_debark:kapok_bark'],
+        Fluid.of('tfm:aged_conifer_rosin', 1000),
+        1000,
+        420
+    )
+    .itemOutput(['tfm:conifer_rosin_ball'])
+
+    event.custom({
+        "type": "firmalife:vat",
+        "input_fluid": {
+            "amount": 1000,
+            "fluid": "tfm:aged_conifer_rosin"
+        },
+        "input_item": {
+            "item": "tfc_debark:kapok_bark"
+        },
+        "length": 1000,
+        "temperature": 420.0,
+        "output_item": {
+            "id": "tfm:conifer_rosin_ball"
+        }
+    }).id("tfm:conifer_rosin_ball_from_vat")
+
 
 }

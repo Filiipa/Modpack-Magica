@@ -99,6 +99,11 @@ const registerAFCRecipes = (event) => {
 	event.recipes.tfc.sealed_barrel(Fluid.of('tfm:pine_resin', 100), 24000)
 		.outputItem('hexalia:tree_resin')
 		.id('tfg:barrel/pine_resin_to_resin')
+
+	event.recipes.tfc.sealed_barrel(Fluid.of('tfm:conifer_rosin', 100), 96000)
+		.inputItem('hexalia:fragrant_nectar')
+		.outputFluid(Fluid.of('tfm:aged_conifer_rosin', 100))
+		.id('tfm:barrel/conifer_rosin_to_aged')
 /*
 	global.AFC_SAPLINGS.forEach(wood => {
 		event.shaped(`4x afc:wood/fallen_leaves/${wood.sapling}`,[

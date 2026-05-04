@@ -149,7 +149,7 @@ const registerAFCBlockTags = (event) => {
 	event.add("afc:tappable_logs", "#tfc:birch_logs")
 	event.add("afc:tappable_logs", "#tfc:mahogany_logs")
 
-	event.add("afc:tappable_logs", "#tfc:rosin_logs")
+	event.add("afc:tappable_logs", "#tfm:rosin_logs")
 
     event.add("tfm:latex_logs", "#tfc:kapok_logs")
     event.add("tfm:latex_logs", "#afc:hevea_logs")

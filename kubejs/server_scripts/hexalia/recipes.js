@@ -155,6 +155,12 @@ function registerHexaliaRecipes(event) {
         "output": "minecraft:glistering_melon_slice"
     }).id("tfm:glistering_melon_slice_from_brazier")
 
+    event.custom({
+        "type": "hexalia:ritual_brazier",
+        "input": { "item": "tfm:conifer_rosin_ball" },
+        "output": "minecraft:slime_ball"
+    }).id("tfm:slimeball_from_brazier")
+
     event.remove({ id: 'hexalia:celestial_crystal_block_from_brazier'})
 
 //#region Ritual Table
