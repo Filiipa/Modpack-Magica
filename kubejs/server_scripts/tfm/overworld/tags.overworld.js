@@ -46,26 +46,158 @@ function registerTFMItemTagsOverworld(event) {
 	// Climate Group
 
 	const tfcColdPlants = [
-    'tfc:plant/laminaria',
-    'tfc:plant/shawiash',
-    'tfc:plant/yellow_saxifrage',
-    'tfc:plant/cornflower',
-    'tfc:plant/ramunda',
-    'tfc:plant/goldenrod',
-    'tfc:plant/badderlocks',
-    'tfc:plant/labrador_tea',
-    'tfc:plant/yellow_water_lily',
-    'tfc:plant/bur_reed',
-    'tfc:plant/anemone_large_purple',
-    'tfc:plant/edelweiss',
-    'tfc:plant/tulip_white',
-    'tfc:plant/allium',
-    'tfc:plant/meads_milkweed',
-    'tfc:plant/pulsatilla',
-    'tfc:plant/tulip_pink',
-    'tfc:plant/tulip_red'
+		'tfc:plant/laminaria',
+		'tfc:plant/shawiash',
+		'tfc:plant/yellow_saxifrage',
+		'tfc:plant/cornflower',
+		'tfc:plant/ramunda',
+		'tfc:plant/goldenrod',
+		'tfc:plant/badderlocks',
+		'tfc:plant/labrador_tea',
+		'tfc:plant/yellow_water_lily',
+		'tfc:plant/bur_reed',
+		'tfc:plant/anemone_large_purple',
+		'tfc:plant/edelweiss',
+		'tfc:plant/tulip_white',
+		'tfc:plant/allium',
+		'tfc:plant/meads_milkweed',
+		'tfc:plant/pulsatilla',
+		'tfc:plant/tulip_pink',
+		'tfc:plant/tulip_red'
 	]
 	tfcColdPlants.forEach(item => event.add('tfm:cold_plants', item))
+
+	const tfcGeneralPlants = [
+		'tfc:plant/orchard_grass',
+		'tfc:plant/cobblestone_lichen',
+		'tfc:plant/barnacles',
+		'tfc:plant/starfish',
+		'tfc:plant/green_algae',
+		'tfc:plant/red_algae',
+		'tfc:plant/ryegrass',
+		'tfc:plant/saguaro_fruit',
+		'tfc:plant/sea_palm',
+		'tfc:plant/timothy_grass',
+		'tfc:plant/cordgrass',
+		'tfc:plant/dandelion',
+		'tfc:plant/morning_glory',
+		'tfc:plant/dry_grass',
+		'tfc:plant/sago',
+		'tfc:plant/artists_conk',
+		'tfc:plant/cattail',
+		'tfc:plant/butterfly_milkweed',
+		'tfc:plant/moss',
+		'tfc:plant/milfoil',
+		'tfc:plant/beachgrass',
+		'tfc:plant/dead_bush',
+		'tfc:plant/scutch_grass',
+		'tfc:plant/star_grass',
+		'tfc:plant/eel_grass',
+		'tfc:plant/purple_water_lily'
+	]
+	tfcGeneralPlants.forEach(item => event.add('tfm:general_plants', item))
+
+	const tfcFlowersHot = [
+		'tfc:plant/canna',
+		'tfc:plant/anthurium',
+		'tfc:plant/blood_lily',
+		'tfc:plant/blue_orchid',
+		'tfc:plant/hibiscus',
+		'tfc:plant/nasturtium',
+		'tfc:plant/pistia',
+		'tfc:plant/sapphire_tower',
+		'tfc:plant/snapdragon_red',
+		'tfc:plant/snapdragon_white',
+		'tfc:plant/snapdragon_yellow',
+		'tfc:plant/tropical_milkweed',
+		'tfc:plant/water_canna',
+		'tfc:plant/penwortel',
+		'tfc:plant/qantu',
+		'tfc:plant/sunflower',
+	]
+	tfcFlowersHot.forEach(item => event.add('tfm:flowers_hot', item))
+
+	const tfcFlowersArctic = [
+		'tfc:plant/bear_grass',
+		'tfc:plant/kinnikinnick',
+		'tfc:plant/moss_campion',
+	]
+	tfcFlowersArctic.forEach(item => event.add('tfm:flowers_arctic', item))
+
+	const tfcFlowersCold = [
+		'tfc:plant/goldenrod',
+		'tfc:plant/allium',
+		'tfc:plant/bur_reed',
+		'tfc:plant/labrador_tea',
+		'tfc:plant/meads_milkweed',
+		'tfc:plant/pulsatilla',
+		'tfc:plant/tulip_pink',
+		'tfc:plant/tulip_red',
+		'tfc:plant/tulip_white',
+		'tfc:plant/yellow_water_lily',
+		'tfc:plant/edelweiss',
+		'tfc:plant/ramunda',
+		'tfc:plant/yellow_saxifrage',
+		'tfc:plant/cornflower',
+	]
+	tfcFlowersCold.forEach(item => event.add('tfm:flowers_cold', item))
+
+	const tfcFlowersTemperate = [
+		'tfc:plant/perovskia',
+		'tfc:plant/houstonia',
+		'tfc:plant/calendula',
+		'tfc:plant/marigold',
+		'tfc:plant/desert_flame',
+		'tfc:plant/field_horsetail',
+		'tfc:plant/foxglove',
+		'tfc:plant/grape_hyacinth',
+		'tfc:plant/heather',
+		'tfc:plant/lily_of_the_valley',
+		'tfc:plant/lilac',
+		'tfc:plant/lotus',
+		'tfc:plant/maiden_pink',
+		'tfc:plant/oxeye_daisy',
+		'tfc:plant/phragmite',
+		'tfc:plant/pickerelweed',
+		'tfc:plant/poppy',
+		'tfc:plant/primrose',
+		'tfc:plant/rose',
+		'tfc:plant/sacred_datura',
+		'tfc:plant/sargassum',
+		'tfc:plant/sea_lavender',
+		'tfc:plant/trillium',
+		'tfc:plant/tulip_orange',
+		'tfc:plant/white_water_lily',
+		'tfc:plant/yucca',
+		'tfc:plant/azalea',
+		'tfc:plant/buttercup',
+	]
+	tfcFlowersTemperate.forEach(item => event.add('tfm:flowers_temperate', item))
+
+	const tfcFlowersTropical = [
+		'tfc:plant/blue_ginger',
+		'tfc:plant/black_orchid',
+		'tfc:plant/heliconia',
+		'tfc:plant/kangaroo_paw',
+		'tfc:plant/guzmania',
+		'tfc:plant/silver_spurflower',
+		'tfc:plant/snapdragon_pink',
+		'tfc:plant/strelitzia',
+		'tfc:plant/vriesea',
+		'tfc:plant/mountain_hullwort',
+		'tfc:plant/palash',
+		'tfc:plant/ramirezella',
+		'tfc:plant/tank_bromeliad',
+	]
+	tfcFlowersTropical.forEach(item => event.add('tfm:flowers_tropical', item))
+
+	const tfcFlowersGeneralist = [
+		'tfc:plant/butterfly_milkweed',
+		'tfc:plant/dandelion',
+		'tfc:plant/morning_glory',
+		'tfc:plant/purple_water_lily',
+	]
+	tfcFlowersGeneralist.forEach(item => event.add('tfm:flowers_generalist', item))
 
 	// Ingot
 
@@ -82,5 +214,140 @@ function registerTFMItemTagsOverworld(event) {
 
 	event.add('tfc:mutated_clay_knapping', 'tfm:mutated_clay_ball')
 
+}
+
+function registerTFMBlockTagsOverworld(event){
+
+	const tfcGeneralPlants = [
+		'tfc:plant/orchard_grass',
+		'tfc:plant/cobblestone_lichen',
+		'tfc:plant/barnacles',
+		'tfc:plant/starfish',
+		'tfc:plant/green_algae',
+		'tfc:plant/red_algae',
+		'tfc:plant/ryegrass',
+		'tfc:plant/saguaro_fruit',
+		'tfc:plant/sea_palm',
+		'tfc:plant/timothy_grass',
+		'tfc:plant/cordgrass',
+		'tfc:plant/switchgrass',
+		'tfc:plant/morning_glory',
+		'tfc:plant/dry_grass',
+		'tfc:plant/sago',
+		'tfc:plant/artists_conk',
+		'tfc:plant/cattail',
+		'tfc:plant/butterfly_milkweed',
+		'tfc:plant/moss',
+		'tfc:plant/milfoil',
+		'tfc:plant/beachgrass',
+		'tfc:plant/dead_bush',
+		'tfc:plant/scutch_grass',
+		'tfc:plant/star_grass',
+		'tfc:plant/eel_grass',
+		'tfc:plant/purple_water_lily'
+	]
+	tfcGeneralPlants.forEach(block => event.add('tfm:general_plants', block))
+
+	const tfcFlowersHot = [
+		'tfc:plant/canna',
+		'tfc:plant/anthurium',
+		'tfc:plant/blood_lily',
+		'tfc:plant/blue_orchid',
+		'tfc:plant/hibiscus',
+		'tfc:plant/nasturtium',
+		'tfc:plant/pistia',
+		'tfc:plant/sapphire_tower',
+		'tfc:plant/snapdragon_red',
+		'tfc:plant/snapdragon_white',
+		'tfc:plant/snapdragon_yellow',
+		'tfc:plant/tropical_milkweed',
+		'tfc:plant/water_canna',
+		'tfc:plant/penwortel',
+		'tfc:plant/qantu',
+		'tfc:plant/sunflower',
+	]
+	tfcFlowersHot.forEach(block => event.add('tfm:flowers_hot', block))
+
+	const tfcFlowersArctic = [
+		'tfc:plant/bear_grass',
+		'tfc:plant/kinnikinnick',
+		'tfc:plant/moss_campion',
+	]
+	tfcFlowersArctic.forEach(block => event.add('tfm:flowers_arctic', block))
+
+	const tfcFlowersCold = [
+		'tfc:plant/goldenrod',
+		'tfc:plant/allium',
+		'tfc:plant/bur_reed',
+		'tfc:plant/labrador_tea',
+		'tfc:plant/meads_milkweed',
+		'tfc:plant/pulsatilla',
+		'tfc:plant/tulip_pink',
+		'tfc:plant/tulip_red',
+		'tfc:plant/tulip_white',
+		'tfc:plant/yellow_water_lily',
+		'tfc:plant/edelweiss',
+		'tfc:plant/ramunda',
+		'tfc:plant/yellow_saxifrage',
+		'tfc:plant/cornflower',
+	]
+	tfcFlowersCold.forEach(block => event.add('tfm:flowers_cold', block))
+
+	const tfcFlowersTemperate = [
+		'tfc:plant/perovskia',
+		'tfc:plant/houstonia',
+		'tfc:plant/calendula',
+		'tfc:plant/marigold',
+		'tfc:plant/desert_flame',
+		'tfc:plant/field_horsetail',
+		'tfc:plant/foxglove',
+		'tfc:plant/grape_hyacinth',
+		'tfc:plant/heather',
+		'tfc:plant/lily_of_the_valley',
+		'tfc:plant/lilac',
+		'tfc:plant/lotus',
+		'tfc:plant/maiden_pink',
+		'tfc:plant/oxeye_daisy',
+		'tfc:plant/phragmite',
+		'tfc:plant/pickerelweed',
+		'tfc:plant/poppy',
+		'tfc:plant/primrose',
+		'tfc:plant/rose',
+		'tfc:plant/sacred_datura',
+		'tfc:plant/sargassum',
+		'tfc:plant/sea_lavender',
+		'tfc:plant/trillium',
+		'tfc:plant/tulip_orange',
+		'tfc:plant/white_water_lily',
+		'tfc:plant/yucca',
+		'tfc:plant/azalea',
+		'tfc:plant/buttercup',
+	]
+	tfcFlowersTemperate.forEach(block => event.add('tfm:flowers_temperate', block))
+
+	const tfcFlowersTropical = [
+		'tfc:plant/blue_ginger',
+		'tfc:plant/black_orchid',
+		'tfc:plant/heliconia',
+		'tfc:plant/kangaroo_paw',
+		'tfc:plant/guzmania',
+		'tfc:plant/silver_spurflower',
+		'tfc:plant/snapdragon_pink',
+		'tfc:plant/strelitzia',
+		'tfc:plant/vriesea',
+		'tfc:plant/mountain_hullwort',
+		'tfc:plant/palash',
+		'tfc:plant/ramirezella',
+		'tfc:plant/tank_bromeliad',
+	]
+	tfcFlowersTropical.forEach(block => event.add('tfm:flowers_tropical', block))
+
+	const tfcFlowersGeneralist = [
+		'tfc:plant/butterfly_milkweed',
+		'tfc:plant/dandelion',
+		'tfc:plant/morning_glory',
+		'tfc:plant/purple_water_lily',
+	]
+	tfcFlowersGeneralist.forEach(block => event.add('tfm:flowers_generalist', block))
 
 }

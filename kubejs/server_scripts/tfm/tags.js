@@ -18,5 +18,11 @@ const registerTFMItemTags = (event) => {
 	registerTFMItemTagsOverworld(event)
 	registerTotemicItemTags(event)
 
+}
+
+const registerTFMBlockTags = (event) => {
+
+	registerTFMBlockTagsOverworld(event)
+
 
 }

@@ -1,4 +1,4 @@
-// priority: 0
+// priority: -1000
 "use strict";
 
 function removeMinecraftRecipes(event) {

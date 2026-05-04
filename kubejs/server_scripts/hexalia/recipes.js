@@ -90,6 +90,17 @@ function registerHexaliaRecipes(event) {
             C: "#minecraft:coals"
         }).id('tfm:crafting/ritual_table')
 
+    event.remove({ id: 'hexalia:air_node_from_ritual_table'})
+    event.custom({
+        "type": "hexalia:ritual_table",
+        "ingredients": [
+            { "item": 'tfc:gem/amethyst' },
+            { "item": "minecraft:feather" },
+            { "item": "tfc:plant/dandelion" }
+        ],
+            "output":"hexalia:air_node"
+    }).id("tfm:air_node_from_ritual_table")
+
     event.remove({ id: 'totemic:eagle_bone_whistle'})
     event.custom({
         "type": "hexalia:ritual_table",
