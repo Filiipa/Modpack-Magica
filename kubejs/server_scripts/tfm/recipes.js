@@ -24,6 +24,28 @@ function registerTFMRecipes(event) {
         200
     )
 
+    // Mutated Clay Knapping
+
+    event.remove({ id: 'tfc:knapping/ceramic/unfired_crucible' })
+    event.recipes.tfc.knapping(
+        'tfc:ceramic/unfired_crucible',
+        'tfm:mutated_clay',
+        [
+            'X   X',
+            'X   X',
+            'X   X',
+            'X   X',
+            'XXXXX'
+        ]
+    )
+
+    event.recipes.tfc.pot(
+        [ 'eidolon_repraised:enchanted_ash' ],
+        Fluid.of('afc:latex', 1000),
+        50,
+        110
+    )
+    .outputs('minecraft:bread', Fluid.of('minecraft:milk', 20))
 
 
 }

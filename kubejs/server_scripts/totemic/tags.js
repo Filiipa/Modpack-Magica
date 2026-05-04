@@ -9,4 +9,7 @@ function registerTotemicItemTags(event) {
 
     //#endregion
 
+	event.remove('totemic:zaphkiel_waltz_growable', 'totemic:cedar_sapling')
+	event.add('totemic:zaphkiel_waltz_growable', 'afc:wood/sapling/redcedar')
+
 }

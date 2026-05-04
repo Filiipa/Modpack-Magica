@@ -4,17 +4,20 @@
 ServerEvents.tags('item', event => {
 	registerTFMItemTags(event)
 	registerMinecraftItemTags(event)
+	registerAFCItemTags(event)
 })
 
 ServerEvents.tags('block', event => {
 	//registerTFMBlockTags(event)
 	registerMinecraftBlockTags(event)
-})
-/*
-ServerEvents.tags('fluid', event => {
-	registerTFMFluidTags(event)
+	registerAFCBlockTags(event)
 })
 
+ServerEvents.tags('fluid', event => {
+	//registerAFCFluidTags(event)
+	//registerTFMFluidTags(event)
+})
+/*
 ServerEvents.tags('worldgen/configured_feature', event => {
 	registerTFMConfiguredFeatures(event)
 })
@@ -36,7 +39,7 @@ ServerEvents.tags('entity_type', event => {
 
 TFCEvents.data(event => {
 	registerTFCEvents(event)
-	//registerTFCDataForArborFirmaCraft(event)
+	registerTFCDataForArborFirmaCraft(event)
 })
 
 LootJS.lootTables(event => {
@@ -57,4 +60,5 @@ ServerEvents.recipes(event => {
 	registerTotemicRecipes(event)
 	registerTFCAnvilRecipes(event)
 	registerHexaliaRecipes(event)
+	registerAFCRecipes(event)
 })

@@ -3,10 +3,10 @@
 
 function registerTFCEvents(event) {
 
-event.heat({
-        ingredient: 'tfm:wood_iron',
-        heatCapacity: 0.5
-    }, 'tfm:wood_iron')
+    event.heat({
+            ingredient: 'tfm:wood_iron',
+            heatCapacity: 0.5
+        }, 'tfm:wood_iron')
 
 
     event.fluidHeat({
@@ -14,6 +14,14 @@ event.heat({
         meltTemperature: 1550,
         specificHeatCapacity: 0.023
     }, 'tfm:wood_iron')
+
+    event.knappingType({
+        inputItem: Ingredient.of('tfm:mutated_clay_ball', 5),
+        amountToConsume: 5,
+        clickSound: 'minecraft:entity.warden.roar',
+        icon: 'tfm:mutated_clay_ball',
+        spawnsParticles: true
+    }, 'tfm:mutated_clay')
 
 
 }

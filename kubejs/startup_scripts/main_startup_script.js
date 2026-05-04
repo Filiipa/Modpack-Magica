@@ -4,11 +4,11 @@
 StartupEvents.registry('item', event => {
     registerTFMItems(event)
 })
-/*
+
 StartupEvents.registry('block', event => {
-	registerTFGBlocks(event)
+	registerTFMBlocks(event)
 })
-*/
+
 /*
 BlockEvents.modification(event => {
 	registerAdAstraBlockModifications(event)
