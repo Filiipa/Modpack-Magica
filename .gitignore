@@ -11,7 +11,9 @@
 .vs/
 .vscode/
 .idea/
-kubejs/jsconfig.json
+kubejs/client_scripts/jsconfig.json
+kubejs/server_scripts/jsconfig.json
+kubejs/startup_scripts/jsconfig.json
 package.g.props
 node_modules/
 Modpack-Magica.sln
