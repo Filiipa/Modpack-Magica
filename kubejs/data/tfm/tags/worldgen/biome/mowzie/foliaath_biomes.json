@@ -1,0 +1,17 @@
+{
+    "replace": false,
+    "values": [
+        "tfc:lowlands",
+        "tfc:low_canyons",
+        "tfc:cenote_plains",
+        "tfc:cenote_hills",
+        "tfc:cenote_highlands",
+        "tfc:cenote_rolling_hills",
+        "tfc:cenote_canyons",
+        "tfc:cenote_plateau",
+        "tfc:tower_karst_plains",
+        "tfc:tower_karst_hills",
+        "tfc:tower_karst_highlands",
+        "tfc:tower_karst_canyons"
+    ]
+}       

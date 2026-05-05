@@ -1,0 +1,11 @@
+{
+    "replace": false,
+    "values": [
+        "tfc:lowlands",
+        "tfc:low_canyons",
+        "tfc:cenote_plains",
+        "tfc:cenote_hills",
+        "tfc:tower_karst_plains",
+        "tfc:tower_karst_hills"
+    ]
+}
