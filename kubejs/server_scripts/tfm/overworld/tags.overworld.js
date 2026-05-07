@@ -226,6 +226,8 @@ function registerTFMItemTagsOverworld(event) {
 
 	function registerTFMBlockTagsOverworld(event){
 
+	event.removeAll('tfc:logs_that_log')
+
 	const tfcGeneralPlants = [
 		'tfc:plant/orchard_grass',
 		'tfc:plant/cobblestone_lichen',
