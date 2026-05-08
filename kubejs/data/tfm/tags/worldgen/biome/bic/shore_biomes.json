@@ -1,0 +1,12 @@
+{
+    "values": [
+        "tfc:shore",
+        "tfc:rocky_shores",
+        "tfc:sea_stacks",
+        "tfc:coastal_dunes",
+        "tfc:tidal_flats",
+        "tfc:embayments",
+        "tfc:setback_cliffs",
+        "tfc:guano_island"
+    ]
+}

@@ -36,7 +36,7 @@
 
 ["Sage Bundle Durability"]
 	#time (in ticks) for the sage bundle to burn out (default 3600 - 1 hour)
-	sage_bundle_durability = 3600
+	sage_bundle_durability = 7200
 
 ["Coffer Item Blacklist"]
 	#blacklists items from being placed inside of coffers

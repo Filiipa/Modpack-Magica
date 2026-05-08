@@ -1,0 +1,18 @@
+{
+    "values": [
+        "tfc:badlands",
+        "tfc:buttes",
+        "tfc:mesas",
+        "tfc:hoodoos",
+        "tfc:salt_flats",
+        "tfc:mud_flats",
+        "tfc:dune_sea",
+        "tfc:grassy_dunes",
+        "tfc:stair_step_canyons",
+        "tfc:whorled_canyons",
+        "tfc:low_canyons",
+        "tfc:canyons",
+        "tfc:burren_badlands",
+        "tfc:burren_badlands_tall"
+    ]
+}

@@ -1,0 +1,172 @@
+[
+    {
+        "entity": "mowziesmobs:foliaath",
+        "min_count": 1,
+        "max_count": 1,
+        "weight": 5
+    },
+    {
+        "entity": "mowziesmobs:elokosa_howler",
+        "min_count": 1,
+        "max_count": 1,
+        "weight": 5
+    },
+    {
+        "entity": "mowziesmobs:umvuthana_raptor",
+        "min_count": 1,
+        "max_count": 1,
+        "weight": 5
+    },
+    {
+        "entity": "mowziesmobs:naga",
+        "min_count": 1,
+        "max_count": 1,
+        "weight": 1
+    },
+    {
+        "entity": "mowziesmobs:lantern",
+        "min_count": 1,
+        "max_count": 1,
+        "weight": 5
+    },
+    {
+        "entity": "mowziesmobs:grottol",
+        "min_count": 1,
+        "max_count": 1,
+        "weight": 2
+    },
+    {
+        "entity": "minecraft:zombie",
+        "min_count": 1,
+        "max_count": 2,
+        "weight": 10
+    },
+    {
+        "entity": "minecraft:creeper",
+        "min_count": 1,
+        "max_count": 2,
+        "weight": 10
+    },
+    {
+        "entity": "minecraft:witch",
+        "min_count": 1,
+        "max_count": 2,
+        "weight": 10
+    },
+    {
+        "entity": "minecraft:spider",
+        "min_count": 1,
+        "max_count": 2,
+        "weight": 1
+    },
+    {
+        "entity": "minecraft:skeleton",
+        "min_count": 1,
+        "max_count": 2,
+        "weight": 10
+    },
+    {
+        "entity": "irons_spellbooks:necromancer",
+        "min_count": 1,
+        "max_count": 1,
+        "weight": 1
+    },
+    {
+        "entity": "irons_spellbooks:cultist",
+        "min_count": 1,
+        "max_count": 2,
+        "weight": 10
+    },
+    {
+        "entity": "irons_spellbooks:priest",
+        "min_count": 1,
+        "max_count": 1,
+        "weight": 5
+    },
+    {
+        "entity": "hexalia:cacofey",
+        "min_count": 1,
+        "max_count": 2,
+        "weight": 8
+    },
+    {
+        "entity": "hexalia:silk_moth",
+        "min_count": 1,
+        "max_count": 3,
+        "weight": 10
+    },
+    {
+        "entity": "eidolon_repraised:wraith",
+        "min_count": 1,
+        "max_count": 2,
+        "weight": 5
+    },
+    {
+        "entity": "eidolon_repraised:zombie_brute",
+        "min_count": 1,
+        "max_count": 2,
+        "weight": 15
+    },
+    {
+        "entity": "eidolon_repraised:slimy_slug",
+        "min_count": 1,
+        "max_count": 3,
+        "weight": 10
+    },
+    {
+        "entity": "eidolon_repraised:raven",
+        "min_count": 1,
+        "max_count": 3,
+        "weight": 10
+    },
+    {
+        "entity": "hexerei:crow",
+        "min_count": 2,
+        "max_count": 4,
+        "weight": 15
+    },
+    {
+        "entity": "hexerei:owl",
+        "min_count": 1,
+        "max_count": 2,
+        "weight": 8
+    },
+    { 
+        "entity": "born_in_chaos_v1:decaying_zombie",    
+        "min_count": 1, 
+        "max_count": 3, 
+        "weight": 12 
+    },
+    { "entity": "born_in_chaos_v1:decrepit_skeleton",  "min_count": 1, "max_count": 2, "weight": 8  },
+    { "entity": "born_in_chaos_v1:zombie_bruiser",     "min_count": 1, "max_count": 2, "weight": 6  },
+    { "entity": "born_in_chaos_v1:zombie_clown",       "min_count": 1, "max_count": 2, "weight": 5  },
+    { "entity": "born_in_chaos_v1:zombie_lumberjack",  "min_count": 1, "max_count": 2, "weight": 7  },
+    { "entity": "born_in_chaos_v1:zombie_fisherman",   "min_count": 1, "max_count": 2, "weight": 8  },
+    { "entity": "born_in_chaos_v1:barrel_zombie",      "min_count": 1, "max_count": 2, "weight": 6  },
+    { "entity": "born_in_chaos_v1:skeleton_thrasher",  "min_count": 1, "max_count": 2, "weight": 8  },
+    { "entity": "born_in_chaos_v1:skeleton_demoman",   "min_count": 1, "max_count": 2, "weight": 6  },
+    { "entity": "born_in_chaos_v1:siamese_skeletons",  "min_count": 1, "max_count": 1, "weight": 4  },
+    { "entity": "born_in_chaos_v1:baby_skeleton",      "min_count": 1, "max_count": 3, "weight": 8  },
+    { "entity": "born_in_chaos_v1:bonescaller",        "min_count": 1, "max_count": 1, "weight": 2  },
+    { "entity": "born_in_chaos_v1:swarmer",            "min_count": 2, "max_count": 4, "weight": 10 },
+    { "entity": "born_in_chaos_v1:fallen_chaos_knight","min_count": 1, "max_count": 1, "weight": 2  },
+    { "entity": "born_in_chaos_v1:restless_spirit",    "min_count": 1, "max_count": 2, "weight": 10 },
+    { "entity": "born_in_chaos_v1:spiritof_chaos",     "min_count": 1, "max_count": 2, "weight": 8  },
+    { "entity": "born_in_chaos_v1:nightmare_stalker",  "min_count": 1, "max_count": 1, "weight": 3  },
+    { "entity": "born_in_chaos_v1:dark_vortex",        "min_count": 1, "max_count": 1, "weight": 4  },
+    { "entity": "born_in_chaos_v1:phantom_creeper",    "min_count": 1, "max_count": 1, "weight": 3  },
+    { "entity": "born_in_chaos_v1:spirit_guide",       "min_count": 1, "max_count": 1, "weight": 3  },
+    { "entity": "born_in_chaos_v1:dread_hound",        "min_count": 1, "max_count": 3, "weight": 8  },
+    { "entity": "born_in_chaos_v1:corpse_fly",         "min_count": 1, "max_count": 3, "weight": 8  },
+    { "entity": "born_in_chaos_v1:bloody_gadfly",      "min_count": 1, "max_count": 2, "weight": 4  },
+    { "entity": "born_in_chaos_v1:corpse_fish",        "min_count": 1, "max_count": 3, "weight": 8  },
+    { "entity": "born_in_chaos_v1:glutton_fish",       "min_count": 1, "max_count": 2, "weight": 5  },
+    { "entity": "born_in_chaos_v1:thornshell_crab",    "min_count": 1, "max_count": 3, "weight": 8  },
+    { "entity": "born_in_chaos_v1:mother_spider",      "min_count": 1, "max_count": 1, "weight": 2  },
+    { "entity": "born_in_chaos_v1:seared_spirit",      "min_count": 1, "max_count": 1, "weight": 2  },
+    { "entity": "born_in_chaos_v1:krampus_henchman",   "min_count": 1, "max_count": 3, "weight": 6  },
+    { "entity": "variantsandventures:thicket",          "min_count": 1, "max_count": 2, "weight": 5  },
+    { "entity": "variantsandventures:murk",             "min_count": 1, "max_count": 2, "weight": 5  },
+    { "entity": "variantsandventures:verdant",          "min_count": 1, "max_count": 2, "weight": 5  },
+    { "entity": "variantsandventures:gelid",            "min_count": 1, "max_count": 2, "weight": 5  }
+]
