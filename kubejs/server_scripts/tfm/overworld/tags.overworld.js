@@ -360,4 +360,38 @@ function registerTFMItemTagsOverworld(event) {
 	]
 	tfcFlowersGeneralist.forEach(block => event.add('tfm:flowers_generalist', block))
 
+	//#region Spawning Blocks
+
+	const tfmSpawnBlockAll = [
+		'#tfc:coarse_dirt',
+		'#tfc:duff',
+		'#c:gravels',
+		'#c:stones/raw',
+		'#c:cobblestones',
+		'#c:sands',
+		'#tfc:grass',
+		'#tfc:dirt',
+		'#tfc:cold_ocean_blocks'
+	]
+	tfmSpawnBlockAll.forEach(block => event.add('tfm:spawn_blocks_all', block))
+
+	const tfmSpawnBlockLand = [
+		'#tfc:coarse_dirt',
+		'#tfc:duff',
+		'#c:gravels',
+		'#c:stones/raw',
+		'#c:cobblestones',
+		'#tfc:grass',
+		'#tfc:dirt',
+		'#minecraft:snow'
+	]
+	tfmSpawnBlockLand.forEach(block => event.add('tfm:spawn_blocks_land', block))
+
+	const tfmSpawnBlockShores = [
+		'#c:gravels',
+		'#c:sands',
+		'#tfc:cold_ocean_blocks'
+	]
+	tfmSpawnBlockShores.forEach(block => event.add('tfm:spawn_blocks_shores', block))
+
 }
