@@ -21,3 +21,5 @@ Modpack-Magica.esproj
 .env
 .probe
 .mixin.out
+setup.sh
+config/MouseTweaks.cfg
