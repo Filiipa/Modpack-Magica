@@ -52,6 +52,63 @@
     "painting": true,
     "chiseled_bookshelf": true
   },
+  "jadeaddons.create": {
+    "filter": true,
+    "backtank_capacity": true,
+    "goggles.requires_goggles": true,
+    "goggles": false,
+    "blaze_burner": true,
+    "exact_block": true,
+    "goggles.detailed": false,
+    "placard": true
+  },
+  "jade_access": {
+    "held_item": true,
+    "sign": true,
+    "block": true,
+    "entity": true,
+    "entity_variant": true
+  },
+  "jade": {
+    "coordinates.rel": false,
+    "registry_name.special": false,
+    "block_states": false,
+    "distance": false,
+    "block_face": false,
+    "coordinates": false,
+    "registry_name": "OFF",
+    "block_properties": false,
+    "mod_name": true
+  },
+  "kubejs_tfc": {
+    "heat_consumer": true
+  },
+  "occultism": {
+    "foliot": true,
+    "sacrificial": true
+  },
+  "balm": {
+    "jade": true
+  },
+  "firmalife": {
+    "barrel_press": true,
+    "keg_sub": true,
+    "string": true,
+    "vat": true,
+    "drying_mat": true,
+    "tumbler": true,
+    "keg": true,
+    "cheese": true,
+    "shelf": true,
+    "oven_top": true,
+    "pumping_station": true,
+    "solar_drier": true,
+    "pot": true,
+    "oven_bottom": true,
+    "fruit_tree_sapling": true,
+    "jarbnet": true,
+    "hanger": true
+  },
   "tfc": {
     "bloomery": true,
     "nest_box": true,
@@ -109,37 +166,29 @@
     "jack_o_lantern": true,
     "firepit": true,
     "anemometer": true,
+    "wet_concrete": true,
     "ingot_pile": true
   },
   "jadeaddons": {
     "equipment_requirement": ""
   },
-  "jadeaddons.create": {
-    "filter": true,
-    "backtank_capacity": true,
-    "goggles.requires_goggles": true,
-    "goggles": false,
-    "blaze_burner": true,
-    "exact_block": true,
-    "goggles.detailed": false,
-    "placard": true
+  "jadeaddons.lootr": {
+    "info": true
   },
-  "jade_access": {
-    "held_item": true,
-    "sign": true,
-    "block": true,
-    "entity": true,
-    "entity_variant": true
+  "tfcthings": {
+    "snare": true,
+    "fishing_net_anchor": true,
+    "gem_display": true,
+    "grindstone_base": true,
+    "grain_pile": true
   },
-  "jade": {
-    "coordinates.rel": false,
-    "registry_name.special": false,
-    "block_states": false,
-    "distance": false,
-    "block_face": false,
-    "coordinates": false,
-    "registry_name": "OFF",
-    "block_properties": false,
-    "mod_name": true
+  "corpse": {
+    "corpse": true
+  },
+  "afc": {
+    "tap": true
+  },
+  "tfc_support_indicator": {
+    "support_indicator": true
   }
 }
