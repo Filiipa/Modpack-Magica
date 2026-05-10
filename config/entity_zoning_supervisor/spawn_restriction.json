@@ -107,7 +107,6 @@
         "overwrite_mod_predicate": true,
         "predicates": [
             { "type": "minecraft:monster", "any_light": true },
-            { "type": "ez_supervisor:biome_tag", "tag": "tfm:mowzie/elokosa_biomes" },
             { "type": "ez_supervisor:height_filter", "min": 70, "max": 220 },
             { "type": "tfc:climate", "climate": { "min_temperature": 22, "min_groundwater": 300, "min_forest": 4 } },
             { "type": "tfc:season", "season": ["spring", "summer", "fall"] },
@@ -725,7 +724,7 @@
         "entity": "born_in_chaos_v1:corpse_fish",
         "overwrite_mod_predicate": true,
         "predicates": [
-            { "type": "minecraft:animal" },
+            { "type": "minecraft:monster" },
             { "type": "ez_supervisor:biome_tag", "tag": "tfm:bic/aquatic_biomes" },
             { "type": "tfc:season", "season": ["spring", "summer", "fall"] },
             { "type": "tfc:climate", "climate": { "min_temperature": 5 } },
