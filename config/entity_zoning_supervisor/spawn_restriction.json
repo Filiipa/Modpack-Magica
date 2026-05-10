@@ -10,7 +10,11 @@
                     { "type": "ez_supervisor:see_sky", "can_see": true },
                     { "type": "ez_supervisor:height_filter", "min": 70, "max": 200 },
                     { "type": "tfc:climate", "climate": { "min_forest": 2 } },
-                    { "type": "ez_supervisor:tag", "tag": "tfm:spawn_blocks_land" },
+                    { "type": "ez_supervisor:or", "predicates": [
+                        { "type": "ez_supervisor:tag", "tag": "tfc:grass" },
+                        { "type": "ez_supervisor:tag", "tag": "tfc:duff" },
+                        { "type": "ez_supervisor:tag", "tag": "tfc:dirt" }
+                    ]},
                     { "type": "ez_supervisor:count_nearby", "distance": 128, "max_count": 2 }
                 ]},
                 { "type": "ez_supervisor:and", "predicates": [
@@ -33,7 +37,10 @@
                     { "type": "ez_supervisor:see_sky", "can_see": true },
                     { "type": "ez_supervisor:height_filter", "min": 65, "max": 200 },
                     { "type": "tfc:climate", "climate": { "min_temperature": -10, "max_temperature": 10, "max_forest": 1 } },
-                    { "type": "ez_supervisor:tag", "tag": "tfm:spawn_blocks_land" },
+                    { "type": "ez_supervisor:or", "predicates": [
+                        { "type": "ez_supervisor:tag", "tag": "tfc:grass" },
+                        { "type": "ez_supervisor:tag", "tag": "tfc:dirt" }
+                    ]},
                     { "type": "ez_supervisor:count_nearby", "distance": 64, "max_count": 4 }
                 ]},
                 { "type": "ez_supervisor:and", "predicates": [
@@ -53,7 +60,6 @@
             { "type": "ez_supervisor:day_time", "min": 13000, "max": 23000 },
             { "type": "ez_supervisor:see_sky", "can_see": true },
             { "type": "ez_supervisor:height_filter", "min": 70, "max": 200 },
-            { "type": "ez_supervisor:tag", "tag": "tfm:spawn_blocks_land" },
             { "type": "ez_supervisor:count_nearby", "distance": 128, "max_count": 2 }
         ]
     },
@@ -79,7 +85,6 @@
                     { "type": "ez_supervisor:day_time", "min": 13000, "max": 23000 },
                     { "type": "ez_supervisor:see_sky", "can_see": true },
                     { "type": "ez_supervisor:height_filter", "min": 70, "max": 200 },
-                    { "type": "ez_supervisor:tag", "tag": "tfm:spawn_blocks_land" },
                     { "type": "ez_supervisor:count_nearby", "distance": 128, "max_count": 1 }
                 ]},
                 { "type": "ez_supervisor:and", "predicates": [
@@ -98,7 +103,10 @@
             { "type": "ez_supervisor:height_filter", "min": 70, "max": 220 },
             { "type": "tfc:climate", "climate": { "min_temperature": 15, "min_groundwater": 300, "min_forest": 3 } },
             { "type": "tfc:season", "season": ["spring", "summer"] },
-            { "type": "ez_supervisor:tag", "tag": "tfm:spawn_blocks_land" },
+            { "type": "ez_supervisor:or", "predicates": [
+                { "type": "ez_supervisor:tag", "tag": "tfc:grass" },
+                { "type": "ez_supervisor:tag", "tag": "tfc:duff" }
+            ]},
             { "type": "ez_supervisor:count_nearby", "distance": 64, "max_count": 2 }
         ]
     },
@@ -111,7 +119,10 @@
             { "type": "ez_supervisor:height_filter", "min": 70, "max": 220 },
             { "type": "tfc:climate", "climate": { "min_temperature": 22, "min_groundwater": 300, "min_forest": 4 } },
             { "type": "tfc:season", "season": ["spring", "summer", "fall"] },
-            { "type": "ez_supervisor:tag", "tag": "tfm:spawn_blocks_land" },
+            { "type": "ez_supervisor:or", "predicates": [
+                { "type": "ez_supervisor:tag", "tag": "tfc:grass" },
+                { "type": "ez_supervisor:tag", "tag": "tfc:duff" }
+            ]},
             { "type": "ez_supervisor:count_nearby", "distance": 64, "max_count": 2 }
         ]
     },
@@ -121,7 +132,10 @@
         "predicates": [
             { "type": "ez_supervisor:height_filter", "min": 70, "max": 220 },
             { "type": "tfc:climate", "climate": { "min_temperature": 15, "min_groundwater": 0, "max_groundwater": 100, "max_forest": 1 } },
-            { "type": "ez_supervisor:tag", "tag": "tfm:spawn_blocks_land" },
+            { "type": "ez_supervisor:or", "predicates": [
+                { "type": "ez_supervisor:tag", "tag": "tfc:grass" },
+                { "type": "ez_supervisor:tag", "tag": "tfc:dirt" }
+            ]},
             { "type": "ez_supervisor:count_nearby", "distance": 64, "max_count": 1 }
         ]
     },
@@ -133,7 +147,6 @@
             { "type": "ez_supervisor:biome_tag", "tag": "tfm:mowzie/naga_biomes" },
             { "type": "ez_supervisor:height_filter", "min": 100, "max": 220 },
             { "type": "tfc:climate", "climate": { "max_temperature": -5 } },
-            { "type": "ez_supervisor:tag", "tag": "tfm:spawn_blocks_land" },
             { "type": "ez_supervisor:count_nearby", "distance": 256, "max_count": 1 }
         ]
     },
@@ -144,7 +157,6 @@
             { "type": "ez_supervisor:height_filter", "min": 70, "max": 200 },
             { "type": "tfc:climate", "climate": { "min_temperature": 5, "max_temperature": 20, "min_groundwater": 150, "min_forest": 3 } },
             { "type": "tfc:season", "season": ["fall", "winter"] },
-            { "type": "ez_supervisor:tag", "tag": "tfm:spawn_blocks_land" },
             { "type": "ez_supervisor:count_nearby", "distance": 64, "max_count": 2 }
         ]
     },
@@ -169,7 +181,12 @@
             { "type": "ez_supervisor:see_sky", "can_see": true },
             { "type": "ez_supervisor:height_filter", "min": 70, "max": 200 },
             { "type": "tfc:climate", "climate": { "max_temperature": -15 } },
-            { "type": "ez_supervisor:tag", "tag": "tfm:spawn_blocks_all" },
+            { "type": "ez_supervisor:or", "predicates": [
+                { "type": "ez_supervisor:tag", "tag": "tfc:grass" },
+                { "type": "ez_supervisor:tag", "tag": "tfc:dirt" },
+                { "type": "ez_supervisor:tag", "tag": "c:cobblestones" },
+                { "type": "ez_supervisor:tag", "tag": "tfc:cold_ocean_blocks" }
+            ]},
             { "type": "ez_supervisor:count_nearby", "distance": 512, "max_count": 1 }
         ]
     },
@@ -183,7 +200,10 @@
             { "type": "ez_supervisor:see_sky", "can_see": true },
             { "type": "tfc:season", "season": ["summer"] },
             { "type": "ez_supervisor:height_filter", "min": 70, "max": 200 },
-            { "type": "ez_supervisor:tag", "tag": "tfm:spawn_blocks_land" },
+            { "type": "ez_supervisor:or", "predicates": [
+                { "type": "ez_supervisor:tag", "tag": "tfc:grass" },
+                { "type": "ez_supervisor:tag", "tag": "tfc:dirt" }
+            ]},
             { "type": "ez_supervisor:count_nearby", "distance": 128, "max_count": 3 }
         ]
     },
@@ -195,7 +215,11 @@
             { "type": "ez_supervisor:biome_tag", "tag": "tfm:irons/priest_biomes" },
             { "type": "tfc:season", "season": ["spring"] },
             { "type": "ez_supervisor:height_filter", "min": 60, "max": 200 },
-            { "type": "ez_supervisor:tag", "tag": "tfm:spawn_blocks_all" },
+            { "type": "ez_supervisor:or", "predicates": [
+                { "type": "ez_supervisor:tag", "tag": "tfc:grass" },
+                { "type": "ez_supervisor:tag", "tag": "tfc:dirt" },
+                { "type": "ez_supervisor:tag", "tag": "tfc:sand" }
+            ]},
             { "type": "ez_supervisor:count_nearby", "distance": 256, "max_count": 2 }
         ]
     },
@@ -207,7 +231,10 @@
             { "type": "ez_supervisor:height_filter", "min": 70, "max": 200 },
             { "type": "tfc:climate", "climate": { "max_temperature": -5, "min_forest": 3 } },
             { "type": "tfc:season", "season": ["winter"] },
-            { "type": "ez_supervisor:tag", "tag": "tfm:spawn_blocks_land" },
+            { "type": "ez_supervisor:or", "predicates": [
+                { "type": "ez_supervisor:tag", "tag": "tfc:grass" },
+                { "type": "ez_supervisor:tag", "tag": "tfc:duff" }
+            ]},
             { "type": "ez_supervisor:count_nearby", "distance": 128, "max_count": 3 }
         ]
     },
@@ -219,7 +246,10 @@
             { "type": "ez_supervisor:height_filter", "min": 70, "max": 200 },
             { "type": "tfc:climate", "climate": { "min_temperature": 5, "max_temperature": 20, "min_forest": 2 } },
             { "type": "tfc:season", "season": ["spring", "summer", "fall"] },
-            { "type": "ez_supervisor:tag", "tag": "tfm:spawn_blocks_land" },
+            { "type": "ez_supervisor:or", "predicates": [
+                { "type": "ez_supervisor:tag", "tag": "tfc:grass" },
+                { "type": "ez_supervisor:tag", "tag": "tfc:duff" }
+            ]},
             { "type": "ez_supervisor:count_nearby", "distance": 64, "max_count": 4 }
         ]
     },
@@ -232,7 +262,10 @@
             { "type": "ez_supervisor:see_sky", "can_see": true },
             { "type": "ez_supervisor:height_filter", "min": 70, "max": 200 },
             { "type": "tfc:climate", "climate": { "max_temperature": -10 } },
-            { "type": "ez_supervisor:tag", "tag": "tfm:spawn_blocks_land" },
+            { "type": "ez_supervisor:or", "predicates": [
+                { "type": "ez_supervisor:tag", "tag": "tfc:grass" },
+                { "type": "ez_supervisor:tag", "tag": "tfc:dirt" }
+            ]},
             { "type": "ez_supervisor:count_nearby", "distance": 256, "max_count": 2 }
         ]
     },
@@ -245,7 +278,11 @@
             { "type": "ez_supervisor:see_sky", "can_see": true },
             { "type": "ez_supervisor:height_filter", "min": 70, "max": 200 },
             { "type": "tfc:climate", "climate": { "min_groundwater": 300, "min_forest": 2 } },
-            { "type": "ez_supervisor:tag", "tag": "tfm:spawn_blocks_land" },
+            { "type": "ez_supervisor:or", "predicates": [
+                { "type": "ez_supervisor:tag", "tag": "tfc:grass" },
+                { "type": "ez_supervisor:tag", "tag": "tfc:duff" },
+                { "type": "ez_supervisor:tag", "tag": "tfc:dirt" }
+            ]},
             { "type": "ez_supervisor:count_nearby", "distance": 128, "max_count": 4 }
         ]
     },
@@ -256,7 +293,11 @@
             { "type": "minecraft:animal" },
             { "type": "ez_supervisor:height_filter", "min": 70, "max": 200 },
             { "type": "tfc:climate", "climate": { "min_groundwater": 400 } },
-            { "type": "ez_supervisor:tag", "tag": "tfm:spawn_blocks_land" },
+            { "type": "ez_supervisor:or", "predicates": [
+                { "type": "ez_supervisor:tag", "tag": "tfc:grass" },
+                { "type": "ez_supervisor:tag", "tag": "tfc:duff" },
+                { "type": "ez_supervisor:tag", "tag": "tfc:dirt" }
+            ]},
             { "type": "ez_supervisor:count_nearby", "distance": 64, "max_count": 4 }
         ]
     },
@@ -269,7 +310,10 @@
             { "type": "ez_supervisor:height_filter", "min": 70, "max": 200 },
             { "type": "tfc:climate", "climate": { "min_temperature": 5, "max_temperature": 18, "min_forest": 2 } },
             { "type": "tfc:season", "season": ["spring", "summer", "fall"] },
-            { "type": "ez_supervisor:tag", "tag": "tfm:spawn_blocks_land" },
+            { "type": "ez_supervisor:or", "predicates": [
+                { "type": "ez_supervisor:tag", "tag": "tfc:grass" },
+                { "type": "ez_supervisor:tag", "tag": "tfc:duff" }
+            ]},
             { "type": "ez_supervisor:count_nearby", "distance": 128, "max_count": 3 }
         ]
     },
@@ -282,7 +326,10 @@
             { "type": "ez_supervisor:height_filter", "min": 70, "max": 200 },
             { "type": "tfc:climate", "climate": { "min_temperature": 0, "max_temperature": 18, "min_forest": 2 } },
             { "type": "tfc:season", "season": ["spring", "summer", "fall"] },
-            { "type": "ez_supervisor:tag", "tag": "tfm:spawn_blocks_land" },
+            { "type": "ez_supervisor:or", "predicates": [
+                { "type": "ez_supervisor:tag", "tag": "tfc:grass" },
+                { "type": "ez_supervisor:tag", "tag": "tfc:duff" }
+            ]},
             { "type": "ez_supervisor:count_nearby", "distance": 64, "max_count": 4 }
         ]
     },
@@ -295,7 +342,10 @@
             { "type": "ez_supervisor:height_filter", "min": 70, "max": 200 },
             { "type": "tfc:climate", "climate": { "min_temperature": 0, "max_temperature": 15, "min_forest": 3 } },
             { "type": "tfc:season", "season": ["fall", "winter"] },
-            { "type": "ez_supervisor:tag", "tag": "tfm:spawn_blocks_land" },
+            { "type": "ez_supervisor:or", "predicates": [
+                { "type": "ez_supervisor:tag", "tag": "tfc:grass" },
+                { "type": "ez_supervisor:tag", "tag": "tfc:duff" }
+            ]},
             { "type": "ez_supervisor:count_nearby", "distance": 128, "max_count": 2 }
         ]
     },
@@ -304,21 +354,23 @@
         "overwrite_mod_predicate": true,
         "predicates": [
             { "type": "minecraft:monster", "any_light": true },
-            { "type": "tfc:season", "season": ["fall", "winter"] },
             { "type": "ez_supervisor:or", "predicates": [
                 { "type": "ez_supervisor:and", "predicates": [
                     { "type": "ez_supervisor:day_time", "min": 13000, "max": 23000 },
                     { "type": "ez_supervisor:see_sky", "can_see": true },
                     { "type": "ez_supervisor:height_filter", "min": 70, "max": 200 },
-                    { "type": "tfc:climate", "climate": { "min_groundwater": 100 } },
-                    { "type": "ez_supervisor:tag", "tag": "tfm:spawn_blocks_land" },
+                    { "type": "ez_supervisor:or", "predicates": [
+                        { "type": "ez_supervisor:tag", "tag": "tfc:grass" },
+                        { "type": "ez_supervisor:tag", "tag": "tfc:duff" },
+                        { "type": "ez_supervisor:tag", "tag": "tfc:dirt" }
+                    ]},
                     { "type": "ez_supervisor:count_nearby", "distance": 64, "max_count": 4 }
                 ]},
                 { "type": "ez_supervisor:and", "predicates": [
                     { "type": "ez_supervisor:see_sky", "can_see": false },
                     { "type": "ez_supervisor:height_filter", "max": 30 },
                     { "type": "ez_supervisor:brightness", "max": 1 },
-                    { "type": "ez_supervisor:count_nearby", "distance": 32, "max_count": 2 }
+                    { "type": "ez_supervisor:count_nearby", "distance": 32, "max_count": 8 }
                 ]}
             ]}
         ]
@@ -328,21 +380,23 @@
         "overwrite_mod_predicate": true,
         "predicates": [
             { "type": "minecraft:monster", "any_light": true },
-            { "type": "tfc:season", "season": ["winter"] },
             { "type": "ez_supervisor:or", "predicates": [
                 { "type": "ez_supervisor:and", "predicates": [
                     { "type": "ez_supervisor:day_time", "min": 13000, "max": 23000 },
                     { "type": "ez_supervisor:see_sky", "can_see": true },
                     { "type": "ez_supervisor:height_filter", "min": 70, "max": 200 },
-                    { "type": "tfc:climate", "climate": { "max_temperature": 5, "max_groundwater": 200 } },
-                    { "type": "ez_supervisor:tag", "tag": "tfm:spawn_blocks_land" },
+                    { "type": "ez_supervisor:or", "predicates": [
+                        { "type": "ez_supervisor:tag", "tag": "tfc:grass" },
+                        { "type": "ez_supervisor:tag", "tag": "tfc:duff" },
+                        { "type": "ez_supervisor:tag", "tag": "tfc:dirt" }
+                    ]},
                     { "type": "ez_supervisor:count_nearby", "distance": 64, "max_count": 3 }
                 ]},
                 { "type": "ez_supervisor:and", "predicates": [
                     { "type": "ez_supervisor:see_sky", "can_see": false },
                     { "type": "ez_supervisor:height_filter", "max": 30 },
                     { "type": "ez_supervisor:brightness", "max": 1 },
-                    { "type": "ez_supervisor:count_nearby", "distance": 32, "max_count": 2 }
+                    { "type": "ez_supervisor:count_nearby", "distance": 32, "max_count": 6 }
                 ]}
             ]}
         ]
@@ -352,21 +406,22 @@
         "overwrite_mod_predicate": true,
         "predicates": [
             { "type": "minecraft:monster", "any_light": true },
-            { "type": "tfc:season", "season": ["spring", "fall"] },
             { "type": "ez_supervisor:or", "predicates": [
                 { "type": "ez_supervisor:and", "predicates": [
                     { "type": "ez_supervisor:day_time", "min": 13000, "max": 23000 },
                     { "type": "ez_supervisor:see_sky", "can_see": true },
                     { "type": "ez_supervisor:height_filter", "min": 70, "max": 200 },
-                    { "type": "tfc:climate", "climate": { "min_temperature": 5, "max_temperature": 20, "min_groundwater": 150 } },
-                    { "type": "ez_supervisor:tag", "tag": "tfm:spawn_blocks_land" },
+                    { "type": "ez_supervisor:or", "predicates": [
+                        { "type": "ez_supervisor:tag", "tag": "tfc:grass" },
+                        { "type": "ez_supervisor:tag", "tag": "tfc:dirt" }
+                    ]},
                     { "type": "ez_supervisor:count_nearby", "distance": 128, "max_count": 2 }
                 ]},
                 { "type": "ez_supervisor:and", "predicates": [
                     { "type": "ez_supervisor:see_sky", "can_see": false },
                     { "type": "ez_supervisor:height_filter", "max": 30 },
                     { "type": "ez_supervisor:brightness", "max": 1 },
-                    { "type": "ez_supervisor:count_nearby", "distance": 32, "max_count": 1 }
+                    { "type": "ez_supervisor:count_nearby", "distance": 32, "max_count": 4 }
                 ]}
             ]}
         ]
@@ -381,15 +436,18 @@
                     { "type": "ez_supervisor:day_time", "min": 13000, "max": 23000 },
                     { "type": "ez_supervisor:see_sky", "can_see": true },
                     { "type": "ez_supervisor:height_filter", "min": 70, "max": 200 },
-                    { "type": "tfc:climate", "climate": { "min_groundwater": 50 } },
-                    { "type": "ez_supervisor:tag", "tag": "tfm:spawn_blocks_land" },
+                    { "type": "ez_supervisor:or", "predicates": [
+                        { "type": "ez_supervisor:tag", "tag": "tfc:grass" },
+                        { "type": "ez_supervisor:tag", "tag": "tfc:duff" },
+                        { "type": "ez_supervisor:tag", "tag": "tfc:dirt" }
+                    ]},
                     { "type": "ez_supervisor:count_nearby", "distance": 128, "max_count": 2 }
                 ]},
                 { "type": "ez_supervisor:and", "predicates": [
                     { "type": "ez_supervisor:see_sky", "can_see": false },
                     { "type": "ez_supervisor:height_filter", "max": 30 },
                     { "type": "ez_supervisor:brightness", "max": 1 },
-                    { "type": "ez_supervisor:count_nearby", "distance": 32, "max_count": 1 }
+                    { "type": "ez_supervisor:count_nearby", "distance": 32, "max_count": 4 }
                 ]}
             ]}
         ]
@@ -402,9 +460,11 @@
             { "type": "ez_supervisor:day_time", "min": 13000, "max": 23000 },
             { "type": "ez_supervisor:see_sky", "can_see": true },
             { "type": "ez_supervisor:height_filter", "min": 70, "max": 200 },
-            { "type": "tfc:season", "season": ["spring", "summer"] },
-            { "type": "tfc:climate", "climate": { "min_temperature": 10, "min_forest": 3, "min_groundwater": 200 } },
-            { "type": "ez_supervisor:tag", "tag": "tfm:spawn_blocks_land" },
+            { "type": "tfc:climate", "climate": { "min_forest": 2 } },
+            { "type": "ez_supervisor:or", "predicates": [
+                { "type": "ez_supervisor:tag", "tag": "tfc:grass" },
+                { "type": "ez_supervisor:tag", "tag": "tfc:duff" }
+            ]},
             { "type": "ez_supervisor:count_nearby", "distance": 128, "max_count": 2 }
         ]
     },
@@ -417,9 +477,11 @@
             { "type": "ez_supervisor:see_sky", "can_see": true },
             { "type": "ez_supervisor:biome_tag", "tag": "tfm:bic/river_shore_biomes" },
             { "type": "ez_supervisor:height_filter", "min": 55, "max": 75 },
-            { "type": "tfc:season", "season": ["spring", "summer", "fall"] },
-            { "type": "tfc:climate", "climate": { "min_temperature": 5 } },
-            { "type": "ez_supervisor:tag", "tag": "tfm:spawn_blocks_shores" },
+            { "type": "ez_supervisor:or", "predicates": [
+                { "type": "ez_supervisor:tag", "tag": "tfc:grass" },
+                { "type": "ez_supervisor:tag", "tag": "tfc:dirt" },
+                { "type": "ez_supervisor:tag", "tag": "tfc:sand" }
+            ]},
             { "type": "ez_supervisor:count_nearby", "distance": 64, "max_count": 2 }
         ]
     },
@@ -432,9 +494,11 @@
             { "type": "ez_supervisor:see_sky", "can_see": true },
             { "type": "ez_supervisor:biome_tag", "tag": "tfm:bic/river_shore_biomes" },
             { "type": "ez_supervisor:height_filter", "min": 55, "max": 75 },
-            { "type": "tfc:season", "season": ["spring", "summer"] },
-            { "type": "tfc:climate", "climate": { "min_temperature": 5 } },
-            { "type": "ez_supervisor:tag", "tag": "tfm:spawn_blocks_shores" },
+            { "type": "ez_supervisor:or", "predicates": [
+                { "type": "ez_supervisor:tag", "tag": "tfc:sand" },
+                { "type": "ez_supervisor:tag", "tag": "tfc:dirt" },
+                { "type": "ez_supervisor:tag", "tag": "tfc:grass" }
+            ]},
             { "type": "ez_supervisor:count_nearby", "distance": 64, "max_count": 2 }
         ]
     },
@@ -443,21 +507,23 @@
         "overwrite_mod_predicate": true,
         "predicates": [
             { "type": "minecraft:monster", "any_light": true },
-            { "type": "tfc:season", "season": ["winter"] },
             { "type": "ez_supervisor:or", "predicates": [
                 { "type": "ez_supervisor:and", "predicates": [
                     { "type": "ez_supervisor:day_time", "min": 13000, "max": 23000 },
                     { "type": "ez_supervisor:see_sky", "can_see": true },
                     { "type": "ez_supervisor:height_filter", "min": 70, "max": 200 },
-                    { "type": "tfc:climate", "climate": { "max_temperature": 5, "max_groundwater": 150 } },
-                    { "type": "ez_supervisor:tag", "tag": "tfm:spawn_blocks_land" },
+                    { "type": "ez_supervisor:or", "predicates": [
+                        { "type": "ez_supervisor:tag", "tag": "tfc:grass" },
+                        { "type": "ez_supervisor:tag", "tag": "tfc:duff" },
+                        { "type": "ez_supervisor:tag", "tag": "tfc:dirt" }
+                    ]},
                     { "type": "ez_supervisor:count_nearby", "distance": 64, "max_count": 3 }
                 ]},
                 { "type": "ez_supervisor:and", "predicates": [
                     { "type": "ez_supervisor:see_sky", "can_see": false },
                     { "type": "ez_supervisor:height_filter", "max": 30 },
                     { "type": "ez_supervisor:brightness", "max": 1 },
-                    { "type": "ez_supervisor:count_nearby", "distance": 32, "max_count": 1 }
+                    { "type": "ez_supervisor:count_nearby", "distance": 32, "max_count": 6 }
                 ]}
             ]}
         ]
@@ -467,13 +533,15 @@
         "overwrite_mod_predicate": true,
         "predicates": [
             { "type": "minecraft:monster", "any_light": true },
-            { "type": "tfc:season", "season": ["summer"] },
             { "type": "ez_supervisor:or", "predicates": [
                 { "type": "ez_supervisor:and", "predicates": [
                     { "type": "ez_supervisor:see_sky", "can_see": true },
                     { "type": "ez_supervisor:height_filter", "min": 70, "max": 200 },
-                    { "type": "tfc:climate", "climate": { "min_temperature": 15, "max_groundwater": 200 } },
-                    { "type": "ez_supervisor:tag", "tag": "tfm:spawn_blocks_land" },
+                    { "type": "ez_supervisor:or", "predicates": [
+                        { "type": "ez_supervisor:tag", "tag": "tfc:grass" },
+                        { "type": "ez_supervisor:tag", "tag": "tfc:duff" },
+                        { "type": "ez_supervisor:tag", "tag": "tfc:dirt" }
+                    ]},
                     { "type": "ez_supervisor:count_nearby", "distance": 128, "max_count": 2 }
                 ]},
                 { "type": "ez_supervisor:and", "predicates": [
@@ -490,21 +558,23 @@
         "overwrite_mod_predicate": true,
         "predicates": [
             { "type": "minecraft:monster", "any_light": true },
-            { "type": "tfc:season", "season": ["summer"] },
             { "type": "ez_supervisor:or", "predicates": [
                 { "type": "ez_supervisor:and", "predicates": [
                     { "type": "ez_supervisor:day_time", "min": 13000, "max": 23000 },
                     { "type": "ez_supervisor:see_sky", "can_see": true },
                     { "type": "ez_supervisor:height_filter", "min": 70, "max": 200 },
-                    { "type": "tfc:climate", "climate": { "min_temperature": 15, "min_groundwater": 50 } },
-                    { "type": "ez_supervisor:tag", "tag": "tfm:spawn_blocks_land" },
+                    { "type": "ez_supervisor:or", "predicates": [
+                        { "type": "ez_supervisor:tag", "tag": "tfc:grass" },
+                        { "type": "ez_supervisor:tag", "tag": "tfc:duff" },
+                        { "type": "ez_supervisor:tag", "tag": "tfc:dirt" }
+                    ]},
                     { "type": "ez_supervisor:count_nearby", "distance": 128, "max_count": 1 }
                 ]},
                 { "type": "ez_supervisor:and", "predicates": [
                     { "type": "ez_supervisor:see_sky", "can_see": false },
                     { "type": "ez_supervisor:height_filter", "max": 30 },
                     { "type": "ez_supervisor:brightness", "max": 1 },
-                    { "type": "ez_supervisor:count_nearby", "distance": 32, "max_count": 2 }
+                    { "type": "ez_supervisor:count_nearby", "distance": 32, "max_count": 3 }
                 ]}
             ]}
         ]
@@ -519,7 +589,11 @@
                     { "type": "ez_supervisor:day_time", "min": 13000, "max": 23000 },
                     { "type": "ez_supervisor:see_sky", "can_see": true },
                     { "type": "ez_supervisor:height_filter", "min": 70, "max": 200 },
-                    { "type": "ez_supervisor:tag", "tag": "tfm:spawn_blocks_land" },
+                    { "type": "ez_supervisor:or", "predicates": [
+                        { "type": "ez_supervisor:tag", "tag": "tfc:grass" },
+                        { "type": "ez_supervisor:tag", "tag": "tfc:duff" },
+                        { "type": "ez_supervisor:tag", "tag": "tfc:dirt" }
+                    ]},
                     { "type": "ez_supervisor:count_nearby", "distance": 32, "max_count": 3 }
                 ]},
                 { "type": "ez_supervisor:and", "predicates": [
@@ -536,13 +610,16 @@
         "overwrite_mod_predicate": true,
         "predicates": [
             { "type": "minecraft:monster", "any_light": true },
-            { "type": "tfc:season", "season": ["fall", "winter"] },
             { "type": "ez_supervisor:or", "predicates": [
                 { "type": "ez_supervisor:and", "predicates": [
                     { "type": "ez_supervisor:day_time", "min": 13000, "max": 23000 },
                     { "type": "ez_supervisor:see_sky", "can_see": true },
                     { "type": "ez_supervisor:height_filter", "min": 70, "max": 200 },
-                    { "type": "ez_supervisor:tag", "tag": "tfm:spawn_blocks_land" },
+                    { "type": "ez_supervisor:or", "predicates": [
+                        { "type": "ez_supervisor:tag", "tag": "tfc:grass" },
+                        { "type": "ez_supervisor:tag", "tag": "tfc:duff" },
+                        { "type": "ez_supervisor:tag", "tag": "tfc:dirt" }
+                    ]},
                     { "type": "ez_supervisor:count_nearby", "distance": 256, "max_count": 1 }
                 ]},
                 { "type": "ez_supervisor:and", "predicates": [
@@ -559,21 +636,23 @@
         "overwrite_mod_predicate": true,
         "predicates": [
             { "type": "minecraft:monster", "any_light": true },
-            { "type": "tfc:season", "season": ["spring", "summer"] },
             { "type": "ez_supervisor:or", "predicates": [
                 { "type": "ez_supervisor:and", "predicates": [
                     { "type": "ez_supervisor:day_time", "min": 13000, "max": 23000 },
                     { "type": "ez_supervisor:see_sky", "can_see": true },
                     { "type": "ez_supervisor:height_filter", "min": 70, "max": 200 },
-                    { "type": "tfc:climate", "climate": { "min_temperature": 10, "min_groundwater": 150 } },
-                    { "type": "ez_supervisor:tag", "tag": "tfm:spawn_blocks_land" },
+                    { "type": "ez_supervisor:or", "predicates": [
+                        { "type": "ez_supervisor:tag", "tag": "tfc:grass" },
+                        { "type": "ez_supervisor:tag", "tag": "tfc:duff" },
+                        { "type": "ez_supervisor:tag", "tag": "tfc:dirt" }
+                    ]},
                     { "type": "ez_supervisor:count_nearby", "distance": 64, "max_count": 4 }
                 ]},
                 { "type": "ez_supervisor:and", "predicates": [
                     { "type": "ez_supervisor:see_sky", "can_see": false },
                     { "type": "ez_supervisor:height_filter", "max": 30 },
                     { "type": "ez_supervisor:brightness", "max": 1 },
-                    { "type": "ez_supervisor:count_nearby", "distance": 32, "max_count": 2 }
+                    { "type": "ez_supervisor:count_nearby", "distance": 32, "max_count": 8 }
                 ]}
             ]}
         ]
@@ -586,7 +665,10 @@
             { "type": "ez_supervisor:day_time", "min": 13000, "max": 23000 },
             { "type": "ez_supervisor:see_sky", "can_see": true },
             { "type": "ez_supervisor:height_filter", "min": 70, "max": 200 },
-            { "type": "ez_supervisor:tag", "tag": "tfm:spawn_blocks_land" },
+            { "type": "ez_supervisor:or", "predicates": [
+                { "type": "ez_supervisor:tag", "tag": "tfc:grass" },
+                { "type": "ez_supervisor:tag", "tag": "tfc:dirt" }
+            ]},
             { "type": "ez_supervisor:count_nearby", "distance": 256, "max_count": 1 }
         ]
     },
@@ -598,8 +680,11 @@
             { "type": "ez_supervisor:day_time", "min": 13000, "max": 23000 },
             { "type": "ez_supervisor:see_sky", "can_see": true },
             { "type": "ez_supervisor:height_filter", "min": 70, "max": 200 },
-            { "type": "tfc:season", "season": ["fall", "winter"] },
-            { "type": "ez_supervisor:tag", "tag": "tfm:spawn_blocks_land" },
+            { "type": "ez_supervisor:or", "predicates": [
+                { "type": "ez_supervisor:tag", "tag": "tfc:grass" },
+                { "type": "ez_supervisor:tag", "tag": "tfc:duff" },
+                { "type": "ez_supervisor:tag", "tag": "tfc:dirt" }
+            ]},
             { "type": "ez_supervisor:count_nearby", "distance": 64, "max_count": 3 }
         ]
     },
@@ -611,8 +696,11 @@
             { "type": "ez_supervisor:day_time", "min": 13000, "max": 23000 },
             { "type": "ez_supervisor:see_sky", "can_see": true },
             { "type": "ez_supervisor:height_filter", "min": 70, "max": 200 },
-            { "type": "tfc:season", "season": ["fall"] },
-            { "type": "ez_supervisor:tag", "tag": "tfm:spawn_blocks_land" },
+            { "type": "ez_supervisor:or", "predicates": [
+                { "type": "ez_supervisor:tag", "tag": "tfc:grass" },
+                { "type": "ez_supervisor:tag", "tag": "tfc:duff" },
+                { "type": "ez_supervisor:tag", "tag": "tfc:dirt" }
+            ]},
             { "type": "ez_supervisor:count_nearby", "distance": 64, "max_count": 2 }
         ]
     },
@@ -624,8 +712,11 @@
             { "type": "ez_supervisor:day_time", "min": 13000, "max": 23000 },
             { "type": "ez_supervisor:see_sky", "can_see": true },
             { "type": "ez_supervisor:height_filter", "min": 70, "max": 200 },
-            { "type": "tfc:season", "season": ["fall", "winter"] },
-            { "type": "ez_supervisor:tag", "tag": "tfm:spawn_blocks_land" },
+            { "type": "ez_supervisor:or", "predicates": [
+                { "type": "ez_supervisor:tag", "tag": "tfc:grass" },
+                { "type": "ez_supervisor:tag", "tag": "tfc:duff" },
+                { "type": "ez_supervisor:tag", "tag": "tfc:dirt" }
+            ]},
             { "type": "ez_supervisor:count_nearby", "distance": 128, "max_count": 1 }
         ]
     },
@@ -637,8 +728,11 @@
             { "type": "ez_supervisor:day_time", "min": 13000, "max": 23000 },
             { "type": "ez_supervisor:see_sky", "can_see": true },
             { "type": "ez_supervisor:height_filter", "min": 70, "max": 200 },
-            { "type": "tfc:season", "season": ["fall", "winter"] },
-            { "type": "ez_supervisor:tag", "tag": "tfm:spawn_blocks_land" },
+            { "type": "ez_supervisor:or", "predicates": [
+                { "type": "ez_supervisor:tag", "tag": "tfc:grass" },
+                { "type": "ez_supervisor:tag", "tag": "tfc:duff" },
+                { "type": "ez_supervisor:tag", "tag": "tfc:dirt" }
+            ]},
             { "type": "ez_supervisor:count_nearby", "distance": 128, "max_count": 2 }
         ]
     },
@@ -650,7 +744,11 @@
             { "type": "ez_supervisor:day_time", "min": 13000, "max": 23000 },
             { "type": "ez_supervisor:see_sky", "can_see": true },
             { "type": "ez_supervisor:height_filter", "min": 70, "max": 200 },
-            { "type": "tfc:season", "season": ["fall", "winter"] },
+            { "type": "ez_supervisor:or", "predicates": [
+                { "type": "ez_supervisor:tag", "tag": "tfc:grass" },
+                { "type": "ez_supervisor:tag", "tag": "tfc:duff" },
+                { "type": "ez_supervisor:tag", "tag": "tfc:dirt" }
+            ]},
             { "type": "ez_supervisor:count_nearby", "distance": 128, "max_count": 1 }
         ]
     },
@@ -663,7 +761,11 @@
             { "type": "ez_supervisor:see_sky", "can_see": true },
             { "type": "ez_supervisor:biome_tag", "tag": "tfm:bic/spirit_guide_biomes" },
             { "type": "ez_supervisor:height_filter", "min": 60, "max": 200 },
-            { "type": "ez_supervisor:tag", "tag": "tfm:spawn_blocks_all" },
+            { "type": "ez_supervisor:or", "predicates": [
+                { "type": "ez_supervisor:tag", "tag": "tfc:sand" },
+                { "type": "ez_supervisor:tag", "tag": "tfc:dirt" },
+                { "type": "ez_supervisor:tag", "tag": "tfc:grass" }
+            ]},
             { "type": "ez_supervisor:count_nearby", "distance": 256, "max_count": 1 }
         ]
     },
@@ -672,13 +774,16 @@
         "overwrite_mod_predicate": true,
         "predicates": [
             { "type": "minecraft:monster", "any_light": true },
-            { "type": "tfc:season", "season": ["fall", "winter"] },
             { "type": "ez_supervisor:or", "predicates": [
                 { "type": "ez_supervisor:and", "predicates": [
                     { "type": "ez_supervisor:day_time", "min": 13000, "max": 23000 },
                     { "type": "ez_supervisor:see_sky", "can_see": true },
                     { "type": "ez_supervisor:height_filter", "min": 70, "max": 200 },
-                    { "type": "tfc:climate", "climate": { "max_forest": 1 } },
+                    { "type": "ez_supervisor:or", "predicates": [
+                        { "type": "ez_supervisor:tag", "tag": "tfc:grass" },
+                        { "type": "ez_supervisor:tag", "tag": "tfc:duff" },
+                        { "type": "ez_supervisor:tag", "tag": "tfc:dirt" }
+                    ]},
                     { "type": "ez_supervisor:count_nearby", "distance": 64, "max_count": 4 }
                 ]},
                 { "type": "ez_supervisor:and", "predicates": [
@@ -698,8 +803,12 @@
             { "type": "ez_supervisor:day_time", "min": 13000, "max": 23000 },
             { "type": "ez_supervisor:see_sky", "can_see": true },
             { "type": "ez_supervisor:height_filter", "min": 60, "max": 200 },
-            { "type": "tfc:season", "season": ["spring", "summer"] },
-            { "type": "tfc:climate", "climate": { "min_temperature": 10, "min_groundwater": 200 } },
+            { "type": "tfc:climate", "climate": { "min_temperature": 5, "min_groundwater": 200 } },
+            { "type": "ez_supervisor:or", "predicates": [
+                { "type": "ez_supervisor:tag", "tag": "tfc:grass" },
+                { "type": "ez_supervisor:tag", "tag": "tfc:duff" },
+                { "type": "ez_supervisor:tag", "tag": "tfc:dirt" }
+            ]},
             { "type": "ez_supervisor:count_nearby", "distance": 64, "max_count": 4 }
         ]
     },
@@ -712,9 +821,7 @@
             { "type": "ez_supervisor:see_sky", "can_see": true },
             { "type": "ez_supervisor:biome_tag", "tag": "tfm:bic/river_shore_biomes" },
             { "type": "ez_supervisor:height_filter", "min": 55, "max": 80 },
-            { "type": "tfc:season", "season": ["summer"] },
-            { "type": "tfc:climate", "climate": { "min_temperature": 15, "min_groundwater": 250 } },
-            { "type": "ez_supervisor:tag", "tag": "tfm:spawn_blocks_shores" },
+            { "type": "tfc:climate", "climate": { "min_temperature": 5 } },
             { "type": "ez_supervisor:count_nearby", "distance": 128, "max_count": 2 }
         ]
     },
@@ -724,8 +831,6 @@
         "predicates": [
             { "type": "minecraft:animal" },
             { "type": "ez_supervisor:biome_tag", "tag": "tfm:bic/aquatic_biomes" },
-            { "type": "tfc:season", "season": ["spring", "summer", "fall"] },
-            { "type": "tfc:climate", "climate": { "min_temperature": 5 } },
             { "type": "ez_supervisor:count_nearby", "distance": 64, "max_count": 4 }
         ]
     },
@@ -746,9 +851,11 @@
             { "type": "minecraft:animal" },
             { "type": "ez_supervisor:biome_tag", "tag": "tfm:bic/shore_biomes" },
             { "type": "ez_supervisor:height_filter", "min": 55, "max": 72 },
-            { "type": "tfc:season", "season": ["spring", "summer"] },
-            { "type": "tfc:climate", "climate": { "min_temperature": 10 } },
-            { "type": "ez_supervisor:tag", "tag": "tfm:spawn_blocks_shores" },
+            { "type": "tfc:climate", "climate": { "min_temperature": 5 } },
+            { "type": "ez_supervisor:or", "predicates": [
+                { "type": "ez_supervisor:tag", "tag": "tfc:sand" },
+                { "type": "ez_supervisor:tag", "tag": "tfc:gravel" }
+            ]},
             { "type": "ez_supervisor:count_nearby", "distance": 64, "max_count": 3 }
         ]
     },
@@ -757,14 +864,16 @@
         "overwrite_mod_predicate": true,
         "predicates": [
             { "type": "minecraft:monster", "any_light": true },
-            { "type": "tfc:season", "season": ["spring", "summer"] },
             { "type": "ez_supervisor:or", "predicates": [
                 { "type": "ez_supervisor:and", "predicates": [
                     { "type": "ez_supervisor:day_time", "min": 13000, "max": 23000 },
                     { "type": "ez_supervisor:see_sky", "can_see": true },
                     { "type": "ez_supervisor:height_filter", "min": 70, "max": 200 },
-                    { "type": "tfc:climate", "climate": { "min_temperature": 15, "min_forest": 4, "min_groundwater": 200 } },
-                    { "type": "ez_supervisor:tag", "tag": "tfm:spawn_blocks_land" },
+                    { "type": "tfc:climate", "climate": { "min_forest": 4 } },
+                    { "type": "ez_supervisor:or", "predicates": [
+                        { "type": "ez_supervisor:tag", "tag": "tfc:grass" },
+                        { "type": "ez_supervisor:tag", "tag": "tfc:duff" }
+                    ]},
                     { "type": "ez_supervisor:count_nearby", "distance": 256, "max_count": 1 }
                 ]},
                 { "type": "ez_supervisor:and", "predicates": [
@@ -784,9 +893,11 @@
             { "type": "ez_supervisor:day_time", "min": 13000, "max": 23000 },
             { "type": "ez_supervisor:see_sky", "can_see": true },
             { "type": "ez_supervisor:height_filter", "min": 63, "max": 200 },
-            { "type": "tfc:season", "season": ["summer"] },
-            { "type": "tfc:climate", "climate": { "min_temperature": 20, "max_forest": 1, "max_groundwater": 100 } },
-            { "type": "ez_supervisor:tag", "tag": "tfm:spawn_blocks_land" },
+            { "type": "tfc:climate", "climate": { "min_temperature": 15, "max_forest": 1 } },
+            { "type": "ez_supervisor:or", "predicates": [
+                { "type": "ez_supervisor:tag", "tag": "tfc:grass" },
+                { "type": "ez_supervisor:tag", "tag": "tfc:dirt" }
+            ]},
             { "type": "ez_supervisor:count_nearby", "distance": 256, "max_count": 1 }
         ]
     },
@@ -801,7 +912,10 @@
             { "type": "ez_supervisor:height_filter", "min": 70, "max": 220 },
             { "type": "tfc:climate", "climate": { "max_temperature": -5 } },
             { "type": "tfc:season", "season": ["fall", "winter"] },
-            { "type": "ez_supervisor:tag", "tag": "tfm:spawn_blocks_land" },
+            { "type": "ez_supervisor:or", "predicates": [
+                { "type": "ez_supervisor:tag", "tag": "tfc:grass" },
+                { "type": "ez_supervisor:tag", "tag": "tfc:dirt" }
+            ]},
             { "type": "ez_supervisor:count_nearby", "distance": 128, "max_count": 3 }
         ]
     },
@@ -813,9 +927,11 @@
             { "type": "ez_supervisor:day_time", "min": 13000, "max": 23000 },
             { "type": "ez_supervisor:see_sky", "can_see": true },
             { "type": "ez_supervisor:height_filter", "min": 70, "max": 200 },
-            { "type": "tfc:season", "season": ["spring", "summer"] },
-            { "type": "tfc:climate", "climate": { "min_temperature": 10, "min_forest": 3, "min_groundwater": 200 } },
-            { "type": "ez_supervisor:tag", "tag": "tfm:spawn_blocks_land" },
+            { "type": "tfc:climate", "climate": { "min_forest": 3, "min_groundwater": 200 } },
+            { "type": "ez_supervisor:or", "predicates": [
+                { "type": "ez_supervisor:tag", "tag": "tfc:grass" },
+                { "type": "ez_supervisor:tag", "tag": "tfc:duff" }
+            ]},
             { "type": "ez_supervisor:count_nearby", "distance": 128, "max_count": 2 }
         ]
     },
@@ -827,9 +943,12 @@
             { "type": "ez_supervisor:day_time", "min": 13000, "max": 23000 },
             { "type": "ez_supervisor:see_sky", "can_see": true },
             { "type": "ez_supervisor:height_filter", "min": 60, "max": 200 },
-            { "type": "tfc:season", "season": ["fall", "winter"] },
-            { "type": "tfc:climate", "climate": { "min_groundwater": 350, "min_forest": 2, "max_temperature": 10 } },
-            { "type": "ez_supervisor:tag", "tag": "tfm:spawn_blocks_land" },
+            { "type": "tfc:climate", "climate": { "min_groundwater": 350, "min_forest": 2 } },
+            { "type": "ez_supervisor:or", "predicates": [
+                { "type": "ez_supervisor:tag", "tag": "tfc:grass" },
+                { "type": "ez_supervisor:tag", "tag": "tfc:duff" },
+                { "type": "ez_supervisor:tag", "tag": "tfc:dirt" }
+            ]},
             { "type": "ez_supervisor:count_nearby", "distance": 128, "max_count": 2 }
         ]
     },
@@ -841,9 +960,11 @@
             { "type": "ez_supervisor:day_time", "min": 13000, "max": 23000 },
             { "type": "ez_supervisor:see_sky", "can_see": true },
             { "type": "ez_supervisor:height_filter", "min": 70, "max": 200 },
-            { "type": "tfc:season", "season": ["spring", "summer"] },
-            { "type": "tfc:climate", "climate": { "min_temperature": 15, "min_forest": 3, "min_groundwater": 250 } },
-            { "type": "ez_supervisor:tag", "tag": "tfm:spawn_blocks_land" },
+            { "type": "tfc:climate", "climate": { "min_temperature": 10, "min_forest": 3 } },
+            { "type": "ez_supervisor:or", "predicates": [
+                { "type": "ez_supervisor:tag", "tag": "tfc:grass" },
+                { "type": "ez_supervisor:tag", "tag": "tfc:duff" }
+            ]},
             { "type": "ez_supervisor:count_nearby", "distance": 128, "max_count": 2 }
         ]
     },
@@ -856,9 +977,11 @@
             { "type": "ez_supervisor:see_sky", "can_see": true },
             { "type": "ez_supervisor:biome_tag", "tag": "tfm:bic/cold_biomes" },
             { "type": "ez_supervisor:height_filter", "min": 70, "max": 220 },
-            { "type": "tfc:season", "season": ["fall", "winter"] },
             { "type": "tfc:climate", "climate": { "max_temperature": -5 } },
-            { "type": "ez_supervisor:tag", "tag": "tfm:spawn_blocks_land" },
+            { "type": "ez_supervisor:or", "predicates": [
+                { "type": "ez_supervisor:tag", "tag": "tfc:grass" },
+                { "type": "ez_supervisor:tag", "tag": "tfc:dirt" }
+            ]},
             { "type": "ez_supervisor:count_nearby", "distance": 128, "max_count": 2 }
         ]
     }
