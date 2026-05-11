@@ -1,6 +1,8 @@
 {
+	chapter.0887F3B2092B359A.title: "First steps"
 	chapter.0FE09B0E6D6E546C.title: "Important Knowledge"
 	chapter.1E6A3D0CA37A458C.title: "Difficulty Settings"
+	chapter.7AA8AB200F8A5411.title: "Magical Awakening"
 	chapter_group.70D7A837ABBF9B5A.title: "Chapter I"
 	chapter_group.74285A0F7572AEFD.title: "Get Started"
 	file.0000000000000001.title: "TerraFirmaMagica"
@@ -11,8 +13,10 @@
 	quest.239AE4C6BCB2D0ED.quest_desc: ["TerraFirmaCraft comes with a really extensive list of setting that you will be able to find in the config folder under the name of tfc-server.toml\\n\\nYou should feel free to customize anything you want so you can get the best experience but remember that the modpack had been thought with specific settings in mind and that you could break balance and progression by modifying these."]
 	quest.239AE4C6BCB2D0ED.quest_subtitle: "Custom as much as you want"
 	quest.239AE4C6BCB2D0ED.title: "TerraFirmaCraft Settings"
+	quest.26B25EEE469714AE.title: "Summon the Buffalo!"
 	quest.2E5B8D55A0AED2F6.quest_subtitle: "Basic Knowledge"
 	quest.333DBE691929D7F4.title: "Modular Difficulty"
+	quest.4114B7E695D0F699.title: "Bald Eagle"
 	quest.52A89F3328A494E2.quest_desc: ["If you think food is spoiling too fast or if you are playing on a server. You may want to modify the decay rate of food. Before modifying it, you should know that the calendar on which food decay is based only progress if there is players on the server. So if you are on a server but only play with friends at the same time. You may not feel the need to slow the process of food roting.\\n\\nYou have two ways to change this setting, the first is line 899 of the config file so you can modify every foods decay rate.\\n\\nThe other way is line 831 and allow you to modify the strenght of each preservation method. Which could be seen a more balanced method if that's what you would like to do."]
 	quest.52A89F3328A494E2.quest_subtitle: "tfc-server.toml"
 	quest.5AA4DB7B7BA516A4.quest_desc: ["If for roleplaying reason or even increased difficulty, you feel like modifying the calendar. You got commands to do it right ingame.\\n\\n/time set MonthLength *days*\\n/time set DayLength *minutes*\\n\\nYou should be cautious of one thing though: modifying your calendar could have impact on your gameplay. Some mobs could spawn less frequently and agriculture could become really difficult. So if you want to modify this setting, think it through."]
@@ -20,7 +24,9 @@
 	task.14C30589DF7B5B8C.title: "Food"
 	task.1B698DBACDAB1642.title: "TFC Settings"
 	task.2ED479ACDB7711B9.title: "Climate"
+	task.377A5EB67FC6F5DC.title: "Baykok"
 	task.51ACBA3DA8013B27.title: "Wildlife"
+	task.584F4DFB763772F0.title: "Totemic Power"
 	task.595DAA906CE4A66B.title: "Food"
 	task.5A6A43180DF17614.title: "Difficulty"
 	task.64D1CA30453A2165.title: "Welcome to the World"

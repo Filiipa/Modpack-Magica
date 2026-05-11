@@ -1,0 +1,226 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "magical_awakening"
+	group: "70D7A837ABBF9B5A"
+	icon: {
+		id: "totemic:totemic_staff"
+	}
+	id: "7AA8AB200F8A5411"
+	order_index: 1
+	quest_links: [{
+		id: "3A303E8274A71540"
+		linked_quest: "509575E89A178ECC"
+		x: -6.0d
+		y: -4.5d
+	}]
+	quests: [
+		{
+			id: "7A0E5F2A08D6B5A9"
+			rewards: [{
+				id: "40DA098658BB267C"
+				item: {
+					components: {
+						"patchouli:book": "totemic:totempedia"
+					}
+					count: 1
+					id: "patchouli:guide_book"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4DB8C85A7723D19B"
+				item: { count: 1, id: "totemic:totem_whittling_knife" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7A0E5F2A08D6B5A9"]
+			id: "03B26CDEE557D8AA"
+			tasks: [{
+				icon: {
+					id: "totemic:totem_base"
+				}
+				id: "584F4DFB763772F0"
+				observe_type: 0
+				timer: 0L
+				to_observe: "totemic:totem_base"
+				type: "observation"
+			}]
+			x: -6.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["509575E89A178ECC"]
+			id: "4DE5AB3A35E3A71C"
+			tasks: [{
+				id: "19EB4993A9629656"
+				item: { count: 1, id: "totemic:drum" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"683497A08D02BA79"
+				"4DE5AB3A35E3A71C"
+				"03B26CDEE557D8AA"
+			]
+			icon: {
+				id: "totemic:buffalo_spawn_egg"
+			}
+			id: "26B25EEE469714AE"
+			tasks: [{
+				id: "1E07EA5885B06170"
+				observe_type: 5
+				timer: 0L
+				to_observe: "totemic:buffalo"
+				type: "observation"
+			}]
+			x: -5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["69C2713A25BE5AAE"]
+			id: "683497A08D02BA79"
+			tasks: [{
+				id: "5AC343534B2194A8"
+				item: { count: 1, id: "totemic:wind_chime" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: -2.5d
+		}
+		{
+			id: "69C2713A25BE5AAE"
+			tasks: [{
+				id: "0604E17D72E2B7E9"
+				item: { components: { "tfc:heat": { } }, count: 1, id: "tfc:metal/anvil/copper" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["26B25EEE469714AE"]
+			id: "394908B226D5B86B"
+			tasks: [{
+				id: "563466D3FC2E29CF"
+				item: { count: 1, id: "totemic:buffalo_tooth" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["394908B226D5B86B"]
+			id: "799359C26579416D"
+			tasks: [{
+				id: "408854F7862D027B"
+				item: { count: 1, id: "totemic:rattle" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["799359C26579416D"]
+			icon: {
+				id: "totemic:bald_eagle_spawn_egg"
+			}
+			id: "4114B7E695D0F699"
+			tasks: [{
+				id: "051B49BBE1E7D7F3"
+				observe_type: 5
+				timer: 0L
+				to_observe: "totemic:bald_eagle"
+				type: "observation"
+			}]
+			x: -0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["12E267933E45343C"]
+			id: "619433400FA3D6CA"
+			tasks: [{
+				id: "0329B1984F2F4DB7"
+				item: { count: 1, id: "hexalia:ritual_table" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"4114B7E695D0F699"
+				"3BC55E388F6175CD"
+			]
+			disable_recipe_mod: false
+			id: "34C84355F0CC46D6"
+			tasks: [{
+				id: "541E5F97465CFB20"
+				item: { count: 1, id: "totemic:eagle_bone_whistle" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["69C2713A25BE5AAE"]
+			icon: {
+				components: {
+					"tfc:heat": { }
+				}
+				id: "tfc:metal/shears/copper"
+			}
+			id: "12E267933E45343C"
+			tasks: [
+				{
+					id: "23B502C62A0FED2F"
+					item: { count: 1, id: "tfc:plant/moss" }
+					type: "item"
+				}
+				{
+					id: "1AB3F597BCE71DCB"
+					item: { components: { "ftbfiltersystem:filter": "item_tag(c:tools/shear)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["619433400FA3D6CA"]
+			id: "3BC55E388F6175CD"
+			tasks: [{
+				id: "5C6B7BB0E19B43D6"
+				item: { count: 1, id: "hexalia:air_node" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["34C84355F0CC46D6"]
+			id: "2B7126EF4FA86A8A"
+			tasks: [{
+				entity: "totemic:baykok"
+				icon: {
+					components: {
+						"!ftbquests:icon": { }
+						"ftbquests:entity_face": "minecraft:skeleton"
+					}
+					id: "ftbquests:custom_icon"
+				}
+				id: "377A5EB67FC6F5DC"
+				type: "kill"
+				value: 1L
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+	]
+}

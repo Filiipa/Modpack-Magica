@@ -1,0 +1,101 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "first_steps"
+	group: "70D7A837ABBF9B5A"
+	id: "0887F3B2092B359A"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "minecraft:clay_ball"
+			}
+			id: "3B00DE84FD1B0DE8"
+			tasks: [{
+				id: "64372A4A3EFC55F5"
+				observe_type: 1
+				timer: 0L
+				to_observe: "tfc:clays"
+				type: "observation"
+			}]
+			x: -10.0d
+			y: 0.0d
+		}
+		{
+			guide_page: "tfc:field_guide tfc:getting_started/pit_kiln"
+			id: "21C1647539990654"
+			tasks: [{
+				icon: {
+					id: "tfc:firepit"
+				}
+				id: "2B4684A6E951EB0A"
+				observe_type: 0
+				timer: 0L
+				to_observe: "tfc:pit_kiln"
+				type: "observation"
+			}]
+			x: -8.5d
+			y: 0.0d
+		}
+		{
+			icon: {
+				id: "tfc:ceramic/vessel"
+			}
+			id: "72F9CD10E0EF10E3"
+			tasks: [
+				{
+					id: "492CDAA76513639D"
+					item: { components: { "tfc:heat": { } }, count: 1, id: "tfc:ceramic/unfired_vessel" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "38556C25301F8710"
+					item: { count: 1, id: "tfc:ceramic/vessel" }
+					type: "item"
+				}
+			]
+			x: -7.0d
+			y: 0.0d
+		}
+		{
+			id: "725012FA15583CFA"
+			tasks: [{
+				id: "7E5334F072C89D87"
+				item: { count: 1, id: "tfc:ceramic/pickaxe_head_mold" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: 0.0d
+		}
+		{
+			icon: {
+				components: {
+					"minecraft:potion_contents": {
+						potion: "minecraft:water"
+					}
+				}
+				id: "minecraft:potion"
+			}
+			id: "503DC94775624BB1"
+			tasks: [{
+				id: "4489816B4D707ECE"
+				item: { count: 1, id: "tfc:ceramic/jug" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: 1.5d
+		}
+		{
+			id: "509575E89A178ECC"
+			tasks: [{
+				id: "44F86DA5495B4648"
+				item: { count: 1, id: "minecraft:leather" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: -1.5d
+		}
+	]
+}

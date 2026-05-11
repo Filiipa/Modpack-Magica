@@ -56,13 +56,7 @@
 		{
 			dependencies: ["239AE4C6BCB2D0ED"]
 			icon: {
-				components: {
-					"tfc:food": {
-						creation_date: 254311200L
-					}
-					"tfc:heat": { }
-				}
-				id: "tfc:food/potato"
+				id: "minecraft:baked_potato"
 			}
 			id: "52A89F3328A494E2"
 			tasks: [{
