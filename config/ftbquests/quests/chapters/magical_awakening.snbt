@@ -12,7 +12,7 @@
 		id: "3A303E8274A71540"
 		linked_quest: "509575E89A178ECC"
 		x: -6.0d
-		y: -4.5d
+		y: -5.0d
 	}]
 	quests: [
 		{
@@ -70,7 +70,10 @@
 				"03B26CDEE557D8AA"
 			]
 			icon: {
-				id: "totemic:buffalo_spawn_egg"
+				components: {
+					"ftbquests:icon": "totemic:item/buffalo_hide"
+				}
+				id: "ftbquests:custom_icon"
 			}
 			id: "26B25EEE469714AE"
 			tasks: [{
@@ -102,7 +105,7 @@
 				type: "item"
 			}]
 			x: -4.0d
-			y: -4.5d
+			y: -5.0d
 		}
 		{
 			dependencies: ["26B25EEE469714AE"]
@@ -145,13 +148,21 @@
 		{
 			dependencies: ["12E267933E45343C"]
 			id: "619433400FA3D6CA"
+			rewards: [{
+				id: "386EA6E711A052E1"
+				item: {
+					count: 1
+					id: "hexalia:verdant_grimoire"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "0329B1984F2F4DB7"
 				item: { count: 1, id: "hexalia:ritual_table" }
 				type: "item"
 			}]
 			x: 1.0d
-			y: -4.5d
+			y: -5.0d
 		}
 		{
 			dependencies: [
@@ -190,7 +201,7 @@
 				}
 			]
 			x: -2.0d
-			y: -4.5d
+			y: -5.0d
 		}
 		{
 			dependencies: ["619433400FA3D6CA"]
@@ -201,7 +212,7 @@
 				type: "item"
 			}]
 			x: 1.0d
-			y: -1.5d
+			y: -2.5d
 		}
 		{
 			dependencies: ["34C84355F0CC46D6"]
@@ -221,6 +232,240 @@
 			}]
 			x: 2.5d
 			y: 0.0d
+		}
+		{
+			dependencies: [
+				"2B7126EF4FA86A8A"
+				"58A4F80DE64D7437"
+			]
+			id: "020928913EB45D74"
+			tasks: [{
+				id: "4AFC36674B944E1B"
+				item: { count: 1, id: "hexalia:mutavis" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["020928913EB45D74"]
+			id: "7AA414CE6064FBFF"
+			tasks: [
+				{
+					id: "3DAC83F374BA0A76"
+					item: { count: 1, id: "hexalia:lotus_flower" }
+					type: "item"
+				}
+				{
+					id: "25FD0B40F25A38C6"
+					item: { count: 1, id: "hexalia:lotus_blossom" }
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"670AE174FBBB5D1A"
+				"3BC55E388F6175CD"
+				"7AA414CE6064FBFF"
+			]
+			id: "4A12CBCAEDEA681C"
+			tasks: [{
+				id: "4FE6665D5AB8D066"
+				item: { count: 1, id: "hexalia:lourdes" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["020928913EB45D74"]
+			id: "670AE174FBBB5D1A"
+			tasks: [{
+				id: "099BA75BA220C5C3"
+				item: { count: 1, id: "hexalia:celestial_bloom" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["670AE174FBBB5D1A"]
+			id: "68FBFDBAF7B3AC9D"
+			tasks: [{
+				id: "1B381A36E54D575D"
+				item: { components: { "tfc:heat": { } }, count: 1, id: "tfc:metal/ingot/bronze" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["68FBFDBAF7B3AC9D"]
+			id: "527E63123D25E52D"
+			tasks: [{
+				id: "02682BCC136D2A09"
+				item: { count: 1, id: "tfc:bloomery" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: -5.0d
+		}
+		{
+			dependencies: [
+				"2940AF4782DC9EAC"
+				"020928913EB45D74"
+			]
+			id: "50287E5B94117771"
+			tasks: [
+				{
+					id: "4123CB33BF421A52"
+					item: { count: 1, id: "tfm:mutated_clay" }
+					type: "item"
+				}
+				{
+					id: "2CB177C10A05CFF4"
+					item: { count: 1, id: "tfm:mutated_clay_ball" }
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["50287E5B94117771"]
+			id: "4AC977460897AD12"
+			tasks: [{
+				id: "7117D1EDE905C088"
+				item: { count: 1, id: "tfc:crucible" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			id: "2940AF4782DC9EAC"
+			tasks: [{
+				id: "1E14DE1D7E206A2F"
+				item: { count: 1, id: "tfc:fire_clay_block" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["527E63123D25E52D"]
+			id: "252BC5CC6A2397B4"
+			tasks: [{
+				id: "091152A7D6C3F42F"
+				item: { components: { "tfc:heat": { } }, count: 1, id: "tfc:metal/ingot/wrought_iron" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["527E63123D25E52D"]
+			id: "446F90BD1E23EA05"
+			tasks: [{
+				id: "714107A279EAD0BC"
+				item: { components: { "tfc:heat": { } }, count: 1, id: "tfm:wood_iron" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["252BC5CC6A2397B4"]
+			id: "1E6571D4E7BC7C5F"
+			tasks: [{
+				id: "23C6BF7045A9EA4E"
+				item: { count: 1, id: "hexerei:mixing_cauldron" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: -7.0d
+		}
+		{
+			dependencies: [
+				"4AC977460897AD12"
+				"446F90BD1E23EA05"
+			]
+			id: "277609D5F52FB34B"
+			tasks: [{
+				id: "3D5613CDD8533529"
+				item: { count: 1, id: "tfc:blast_furnace" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["69C2713A25BE5AAE"]
+			id: "55577083E837E51A"
+			tasks: [{
+				id: "37E43C7BECCDDAA0"
+				item: { count: 1, id: "hexalia:small_cauldron" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["670AE174FBBB5D1A"]
+			id: "7CC3F15C2CA8B893"
+			tasks: [{
+				id: "3094F167F438D0B5"
+				item: { count: 1, id: "minecraft:glistering_melon_slice" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["670AE174FBBB5D1A"]
+			id: "591D39434BDB9A93"
+			tasks: [{
+				id: "15EA5312D7CC6D2D"
+				item: { count: 1, id: "hexalia:celestial_crystal" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["670AE174FBBB5D1A"]
+			id: "3B9543D62789D27D"
+			tasks: [{
+				id: "13BF431BF6F934B5"
+				item: { count: 1, id: "minecraft:slime_ball" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["020928913EB45D74"]
+			id: "1B9435B125D5134B"
+			tasks: [{
+				id: "628817C5A7E84519"
+				item: { count: 1, id: "hexalia:morphora" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			id: "58A4F80DE64D7437"
+			tasks: [{
+				id: "1944F1B3A2A6D5FB"
+				item: { count: 1, id: "minecraft:slime_ball" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 2.0d
 		}
 	]
 }
