@@ -1,0 +1,89 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "difficulty_settings"
+	group: "74285A0F7572AEFD"
+	icon: {
+		components: {
+			"tfc:heat": { }
+		}
+		id: "tfc:metal/sword/wrought_iron"
+	}
+	id: "1E6A3D0CA37A458C"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			id: "333DBE691929D7F4"
+			tasks: [{
+				id: "7D8A24911D101996"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["333DBE691929D7F4"]
+			id: "1FA179DE079FC74A"
+			tasks: [{
+				id: "5A6A43180DF17614"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1FA179DE079FC74A"]
+			id: "239AE4C6BCB2D0ED"
+			tasks: [{
+				id: "1B698DBACDAB1642"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["239AE4C6BCB2D0ED"]
+			id: "13C130AFA3DFB075"
+			tasks: [{
+				id: "2792439D17923865"
+				item: { count: 1, id: "tfc:torch" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["239AE4C6BCB2D0ED"]
+			icon: {
+				components: {
+					"tfc:food": {
+						creation_date: 254311200L
+					}
+					"tfc:heat": { }
+				}
+				id: "tfc:food/potato"
+			}
+			id: "52A89F3328A494E2"
+			tasks: [{
+				id: "595DAA906CE4A66B"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["239AE4C6BCB2D0ED"]
+			icon: {
+				id: "minecraft:clock"
+			}
+			id: "5AA4DB7B7BA516A4"
+			tasks: [{
+				id: "0D5DB332CE75FBD5"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+	]
+}

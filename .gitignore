@@ -24,3 +24,7 @@ Modpack-Magica.esproj
 setup.sh
 config/MouseTweaks.cfg
 config/iris.properties
+config/xaero/minimap/client.cfg
+config/xaero/world-map/client.cfg
+kubejs/server_scripts/LootJS.js
+kubejs/server_scripts/MobsSpawn.js

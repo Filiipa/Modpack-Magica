@@ -144,7 +144,7 @@
             { "type": "tfc:climate", "climate": { "min_temperature": 5, "max_temperature": 20, "min_groundwater": 150, "min_forest": 3 } },
             { "type": "tfc:season", "season": ["fall", "winter"] },
             { "type": "ez_supervisor:tag", "tag": "tfm:spawn_blocks_land" },
-            { "type": "ez_supervisor:count_nearby", "distance": 64, "max_count": 2 }
+            { "type": "ez_supervisor:count_nearby", "distance": 128, "max_count": 2 }
         ]
     },
     {
@@ -199,27 +199,21 @@
         ]
     },
     {
-        "entity": "hexalia:cacofey",
-        "overwrite_mod_predicate": true,
-        "predicates": [
-            { "type": "minecraft:animal" },
-            { "type": "ez_supervisor:height_filter", "min": 70, "max": 200 },
-            { "type": "tfc:climate", "climate": { "max_temperature": -5, "min_forest": 3 } },
-            { "type": "tfc:season", "season": ["winter"] },
-            { "type": "ez_supervisor:tag", "tag": "tfm:spawn_blocks_land" },
-            { "type": "ez_supervisor:count_nearby", "distance": 128, "max_count": 3 }
-        ]
-    },
-    {
         "entity": "hexalia:silk_moth",
         "overwrite_mod_predicate": true,
         "predicates": [
-            { "type": "minecraft:animal" },
+            { "type": "ez_supervisor:height_filter", "min": 60, "max": 200 }
+        ]
+    },
+    {
+        "entity": "hexalia:cacofey",
+        "overwrite_mod_predicate": true,
+        "predicates": [
             { "type": "ez_supervisor:height_filter", "min": 70, "max": 200 },
-            { "type": "tfc:climate", "climate": { "min_temperature": 5, "max_temperature": 20, "min_forest": 2 } },
-            { "type": "tfc:season", "season": ["spring", "summer", "fall"] },
+            { "type": "tfc:climate", "climate": { "max_temperature": -5, "min_forest": 1 } },
+            { "type": "tfc:season", "season": ["winter"] },
             { "type": "ez_supervisor:tag", "tag": "tfm:spawn_blocks_land" },
-            { "type": "ez_supervisor:count_nearby", "distance": 64, "max_count": 4 }
+            { "type": "ez_supervisor:count_nearby", "distance": 128, "max_count": 3 }
         ]
     },
     {
@@ -724,7 +718,10 @@
         "entity": "born_in_chaos_v1:corpse_fish",
         "overwrite_mod_predicate": true,
         "predicates": [
-            { "type": "minecraft:monster" },
+            { "type": "ez_supervisor:or", "predicates": [
+                { "type": "ez_supervisor:fluid", "fluid": "minecraft:water" },
+                { "type": "ez_supervisor:fluid", "fluid": "tfc:salt_water" }
+            ]},
             { "type": "ez_supervisor:biome_tag", "tag": "tfm:bic/aquatic_biomes" },
             { "type": "tfc:season", "season": ["spring", "summer", "fall"] },
             { "type": "tfc:climate", "climate": { "min_temperature": 5 } },
@@ -735,7 +732,7 @@
         "entity": "born_in_chaos_v1:glutton_fish",
         "overwrite_mod_predicate": true,
         "predicates": [
-            { "type": "minecraft:animal" },
+            { "type": "ez_supervisor:fluid", "fluid": "tfc:salt_water" },
             { "type": "ez_supervisor:biome_tag", "tag": "tfm:bic/ocean_biomes" },
             { "type": "tfc:climate", "climate": { "min_temperature": 5 } },
             { "type": "ez_supervisor:count_nearby", "distance": 64, "max_count": 3 }

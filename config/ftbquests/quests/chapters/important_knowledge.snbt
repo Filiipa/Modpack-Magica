@@ -1,0 +1,70 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "important_knowledge"
+	group: "74285A0F7572AEFD"
+	id: "0FE09B0E6D6E546C"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "2E5B8D55A0AED2F6"
+			tasks: [{
+				dimension: "minecraft:overworld"
+				icon: {
+					id: "tfc:peat_grass"
+				}
+				id: "64D1CA30453A2165"
+				type: "dimension"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2E5B8D55A0AED2F6"]
+			icon: {
+				components: {
+					"ftbquests:icon": "mowziesmobs:textures/particle/cloud_hard.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "11FDA2FA3884CA3F"
+			tasks: [{
+				id: "2ED479ACDB7711B9"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2E5B8D55A0AED2F6"]
+			icon: {
+				id: "minecraft:golden_carrot"
+			}
+			id: "329526D45CD88C7B"
+			tasks: [{
+				id: "14C30589DF7B5B8C"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2E5B8D55A0AED2F6"]
+			icon: {
+				components: {
+					"!ftbquests:icon": { }
+					"ftbquests:entity_face": "minecraft:zombie"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "389676A046E5BEC3"
+			tasks: [{
+				id: "51ACBA3DA8013B27"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+	]
+}
