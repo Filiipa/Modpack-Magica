@@ -2741,6 +2741,49 @@
             ]
         },
         {
+            "pakku_id": "L4YTiYUF2g29hlNG",
+            "pakku_links": [
+                "JGpKtP6U6y3FvKUw",
+                "w2o8tUTvpSWCouRh"
+            ],
+            "type": "MOD",
+            "slug": {
+                "curseforge": "ftb-xmod-compat"
+            },
+            "name": {
+                "curseforge": "FTB XMod Compat"
+            },
+            "id": {
+                "curseforge": "889915"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "ftb-xmod-compat-neoforge-21.1.8.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7715/134/ftb-xmod-compat-neoforge-21.1.8.jar",
+                    "id": "7715134",
+                    "parent_id": "889915",
+                    "hashes": {
+                        "sha1": "0c25fc1a43c99eaa68c883dc77e3ebf4539629e6",
+                        "md5": "2dcc73135a4345e39eda8119094d45d2"
+                    },
+                    "required_dependencies": [
+                        "404465",
+                        "419699"
+                    ],
+                    "size": 141328,
+                    "date_published": "2026-03-05T16:17:50.593Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "cIZtJOZvoaVgEJmt",
             "pakku_links": [
                 "P7Yl569nhOYpapTr",
@@ -6643,74 +6686,6 @@
                     ],
                     "size": 91559,
                     "date_published": "2025-12-12T21:29:37.772626Z"
-                }
-            ]
-        },
-        {
-            "pakku_id": "Rq5y8rD9UVvXktOS",
-            "pakku_links": [
-                "6Dx8A9L0tMEJGwHx"
-            ],
-            "type": "MOD",
-            "side": "BOTH",
-            "slug": {
-                "curseforge": "tfc-regrowing-forests",
-                "modrinth": "tfc-regrowing-forests"
-            },
-            "name": {
-                "curseforge": "TFC Regrowing Forests",
-                "modrinth": "TFC Regrowing Forests"
-            },
-            "id": {
-                "curseforge": "1091993",
-                "modrinth": "Zh7v8m6u"
-            },
-            "files": [
-                {
-                    "type": "curseforge",
-                    "file_name": "TFCRegrowingForests-1.21.1-2.2.jar",
-                    "mc_versions": [
-                        "1.21",
-                        "1.21.1"
-                    ],
-                    "loaders": [
-                        "neoforge"
-                    ],
-                    "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/7604/340/TFCRegrowingForests-1.21.1-2.2.jar",
-                    "id": "7604340",
-                    "parent_id": "1091993",
-                    "hashes": {
-                        "sha1": "d28581e0b1c695f5e7cc7f08dfda306e1a22134b",
-                        "md5": "5a2b4e201e6b29c59718a2ed9da5c053"
-                    },
-                    "required_dependencies": [
-                        "302973"
-                    ],
-                    "size": 1657683,
-                    "date_published": "2026-02-10T14:57:32.497Z"
-                },
-                {
-                    "type": "modrinth",
-                    "file_name": "TFCRegrowingForests-1.21.1-2.2.jar",
-                    "mc_versions": [
-                        "1.21",
-                        "1.21.1"
-                    ],
-                    "loaders": [
-                        "neoforge"
-                    ],
-                    "release_type": "release",
-                    "url": "https://cdn.modrinth.com/data/Zh7v8m6u/versions/JbsGsxZD/TFCRegrowingForests-1.21.1-2.2.jar",
-                    "id": "JbsGsxZD",
-                    "parent_id": "Zh7v8m6u",
-                    "hashes": {
-                        "sha512": "709a89ddc3fea7d257396e2032c9d611a63c7f9a52b7ed00011fffc499ec0e91f13f97e9e90795d3c3c88c0734cf14818702bf7487260d8bbf7f5a7410856b8f",
-                        "sha1": "d28581e0b1c695f5e7cc7f08dfda306e1a22134b"
-                    },
-                    "required_dependencies": [],
-                    "size": 1657683,
-                    "date_published": "2026-02-10T14:59:12.377864Z"
                 }
             ]
         },
