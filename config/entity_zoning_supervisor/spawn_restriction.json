@@ -213,7 +213,7 @@
             { "type": "tfc:climate", "climate": { "max_temperature": -5, "min_forest": 1 } },
             { "type": "tfc:season", "season": ["winter"] },
             { "type": "ez_supervisor:tag", "tag": "tfm:spawn_blocks_land" },
-            { "type": "ez_supervisor:count_nearby", "distance": 128, "max_count": 3 }
+            { "type": "ez_supervisor:count_nearby", "distance": 64, "max_count": 3 }
         ]
     },
     {
