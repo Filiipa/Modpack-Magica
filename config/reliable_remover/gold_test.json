@@ -1,6 +1,19 @@
-{
-  "action": "remove",
-  "items": ["minecraft:gold_ingot"],
-  "tag_type": ["item"],
-  "replace_with": "#c:ingots/gold"
-}
+[
+  {
+    "action": "remove",
+    "items": ["minecraft:iron_ingot"],
+    "tag_type": ["item"]
+  },
+  {
+    "action": "remove",
+    "items": ["minecraft:gold_ingot"],
+    "tag_type": ["item"],
+    "replace_with": "#c:ingots/gold"
+  },
+  {
+    "action": "remove",
+    "items": ["minecraft:copper_ingot"],
+    "tag_type": ["item"],
+    "replace_with": "#c:ingots/copper"
+    }
+]

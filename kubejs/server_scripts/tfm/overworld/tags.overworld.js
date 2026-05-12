@@ -216,6 +216,9 @@ function registerTFMItemTagsOverworld(event) {
 	event.add('c:ingots/arcane','irons_spellbooks:arcane_ingot')
 	event.add('c:ingots/andesite_alloy','create:andesite_alloy')
 
+	event.add('c:ingots/iron', "tfc:metal/ingot/wrought_iron")
+	event.remove('c:ingots/iron', "minecraft:iron_ingot")
+
 	// Mutated Clay Knapping
 
 	event.add('tfc:mutated_clay_knapping', 'tfm:mutated_clay_ball')

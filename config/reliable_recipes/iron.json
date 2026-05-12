@@ -1,0 +1,17 @@
+[
+  {
+    "action": "replace_input",
+    "target": "minecraft:iron_ingot",
+    "replacement": "#c:ingots/iron"
+  },
+  {
+    "action": "replace_input",
+    "target": "minecraft:copper_ingot",
+    "replacement": "#c:ingots/copper"
+  },
+  {
+    "action": "replace_input",
+    "target": "minecraft:gold_ingot",
+    "replacement": "#c:ingots/gold"
+  }
+]
