@@ -62,4 +62,7 @@ LootJS.lootTables(event => {
     all.replaceItem("minecraft:iron_leggings", "tfc:metal/greaves/copper")
     all.replaceItem("minecraft:iron_boots", "tfc:metal/boots/copper")
     all.replaceItem("minecraft:diamond_helmet", "tfc:metal/helmet/copper")
+
+    // Removing items
+    all.removeItem('eidolon_repraised:pewter_ingot')
 })

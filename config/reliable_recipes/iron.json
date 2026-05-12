@@ -13,5 +13,10 @@
     "action": "replace_input",
     "target": "minecraft:gold_ingot",
     "replacement": "#c:ingots/gold"
+  },
+  {
+    "action": "replace_input",
+    "target": "minecraft:gold_ingot",
+    "replacement": "#c:ingots/gold"
   }
 ]

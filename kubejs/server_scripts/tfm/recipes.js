@@ -24,6 +24,21 @@ function registerTFMRecipes(event) {
         200
     )
 
+    // Lead Eidolon
+
+     event.recipes.tfc.heating(
+        'eidolon_repraised:lead_ingot[tfc:heat={}]',
+        1200
+    )
+    .fluidOutput(Fluid.of('tfm:metal/lead', 100))
+
+    event.recipes.tfc.bloomery(
+        'eidolon_repraised:pewter_blend',
+        Ingredient.of("tfc:metal/ingot/wrought_iron", 1),
+        Fluid.of('tfm:metal/lead', 100),
+        2000
+    )
+
     // Mutated Clay Knapping
 
     event.remove({ id: 'tfc:knapping/ceramic/unfired_crucible' })

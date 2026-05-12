@@ -8,6 +8,18 @@ const $ParticleTypes = Java.loadClass('net.minecraft.core.particles.ParticleType
 		.stillTexture('tfm:block/fluids/fluid.wood_iron')
         .flowingTexture('tfm:block/fluids/fluid.wood_iron')
 
+	event.create('tfm:metal/lead', 'thick')
+		.tint(0x4f7cc4)
+		//.noBlock()
+		.tag('c:molten_lead')
+		.tag('tfchotornot:hot_whitelist')
+		.tag('tfc:usable_in_ingot_mold')
+		.tag('tfc:molten_metals')
+		.tag('tfchotornot:fluid_whitelist')
+		.type(type => type
+			.renderType(3)
+			)
+
   	event.create('tfm:pine_resin', 'thin')
 		.tint(0xFFBF00)
 		//.noBlock()

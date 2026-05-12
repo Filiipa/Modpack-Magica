@@ -4,9 +4,26 @@
 function registerTFCEvents(event) {
 
     event.heat({
+            ingredient: 'eidolon_repraised:lead_ingot',
+            heatCapacity: 0.5
+        }, 'tfm:lead_ingot')
+
+
+    event.fluidHeat({
+        fluid: 'tfm:metal/lead',
+        meltTemperature: 1550,
+        specificHeatCapacity: 0.023
+    }, 'tfm:lead')
+
+    event.heat({
             ingredient: 'tfm:wood_iron',
             heatCapacity: 0.5
         }, 'tfm:wood_iron')
+
+    event.heat({
+            ingredient: 'eidolon_repraised:pewter_ingot',
+            heatCapacity: 0.5
+        }, 'tfm:pewter_ingot')
 
 
     event.fluidHeat({

@@ -15,5 +15,17 @@
     "items": ["minecraft:copper_ingot"],
     "tag_type": ["item"],
     "replace_with": "#c:ingots/copper"
+    },
+  {
+    "action": "remove",
+    "items": ["occultism:silver_ingot"],
+    "tag_type": ["item"],
+    "replace_with": "tfc:metal/ingot/silver"
+    },
+  {
+    "action": "remove",
+    "items": ["eidolon_repraised:silver_ingot"],
+    "tag_type": ["item"],
+    "replace_with": "tfc:metal/ingot/silver"
     }
 ]
