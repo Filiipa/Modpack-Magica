@@ -11,7 +11,7 @@
 	quest_links: [{
 		id: "3A303E8274A71540"
 		linked_quest: "509575E89A178ECC"
-		x: -6.0d
+		x: -5.0d
 		y: -5.0d
 	}]
 	quests: [
@@ -60,7 +60,7 @@
 				item: { count: 1, id: "totemic:drum" }
 				type: "item"
 			}]
-			x: -6.0d
+			x: -5.0d
 			y: -2.5d
 		}
 		{
@@ -94,7 +94,7 @@
 				item: { count: 1, id: "totemic:wind_chime" }
 				type: "item"
 			}]
-			x: -4.0d
+			x: -3.5d
 			y: -2.5d
 		}
 		{
@@ -104,7 +104,7 @@
 				item: { components: { "tfc:heat": { } }, count: 1, id: "tfc:metal/anvil/copper" }
 				type: "item"
 			}]
-			x: -4.0d
+			x: -2.0d
 			y: -5.0d
 		}
 		{
@@ -200,7 +200,7 @@
 					type: "item"
 				}
 			]
-			x: -2.0d
+			x: -0.5d
 			y: -5.0d
 		}
 		{

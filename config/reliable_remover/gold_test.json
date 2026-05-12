@@ -1,0 +1,6 @@
+{
+  "action": "remove",
+  "items": ["minecraft:gold_ingot"],
+  "tag_type": ["item"],
+  "replace_with": "#c:ingots/gold"
+}
