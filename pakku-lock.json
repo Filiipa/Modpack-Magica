@@ -5578,6 +5578,135 @@
             ]
         },
         {
+            "pakku_id": "pLcFVLiKhpDQPGnI",
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "curseforge": "reliable-recipes",
+                "modrinth": "reliable-recipes"
+            },
+            "name": {
+                "curseforge": "Reliable Recipes",
+                "modrinth": "Reliable Recipes"
+            },
+            "id": {
+                "curseforge": "1414959",
+                "modrinth": "Hl4ARA1z"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "reliable_recipes-neoforge-1.21.1-1.13.2.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/8072/245/reliable_recipes-neoforge-1.21.1-1.13.2.jar",
+                    "id": "8072245",
+                    "parent_id": "1414959",
+                    "hashes": {
+                        "sha1": "443da89d3928d6d66fb4cf34c9b6dc591cffd304",
+                        "md5": "00a53c250f1285193183cc9072e5c632"
+                    },
+                    "required_dependencies": [],
+                    "size": 94557,
+                    "date_published": "2026-05-11T05:48:50.330Z"
+                },
+                {
+                    "type": "modrinth",
+                    "file_name": "reliable_recipes-neoforge-1.21.1-1.13.2.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/Hl4ARA1z/versions/FmnSzjfS/reliable_recipes-neoforge-1.21.1-1.13.2.jar",
+                    "id": "FmnSzjfS",
+                    "parent_id": "Hl4ARA1z",
+                    "hashes": {
+                        "sha512": "1a71419b305aaac29a59f57b091f3f5446ccc98e1ea4189ddf52a8ee016f9d5c5862f2462b8336232d6e1ab541678ca89abf3b7b52a929d6a303bee363c7d6bb",
+                        "sha1": "443da89d3928d6d66fb4cf34c9b6dc591cffd304"
+                    },
+                    "required_dependencies": [],
+                    "size": 94557,
+                    "date_published": "2026-05-11T05:48:50.441691Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "WAnREy5mo2wPhz2F",
+            "pakku_links": [
+                "pLcFVLiKhpDQPGnI"
+            ],
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "curseforge": "reliable-remover",
+                "modrinth": "reliable-remover"
+            },
+            "name": {
+                "curseforge": "Reliable Remover",
+                "modrinth": "Reliable Remover"
+            },
+            "id": {
+                "curseforge": "1420447",
+                "modrinth": "pLxsKvNt"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "reliable_remover-neoforge-1.21.1-2.4.0.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/8072/259/reliable_remover-neoforge-1.21.1-2.4.0.jar",
+                    "id": "8072259",
+                    "parent_id": "1420447",
+                    "hashes": {
+                        "sha1": "a3ac608700f6aed8675052a4e05722904b3219ed",
+                        "md5": "3df432f5301c85d217ebffc9d73d9936"
+                    },
+                    "required_dependencies": [
+                        "1414959"
+                    ],
+                    "size": 91831,
+                    "date_published": "2026-05-11T05:55:59.780Z"
+                },
+                {
+                    "type": "modrinth",
+                    "file_name": "reliable_remover-neoforge-1.21.1-2.4.0.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/pLxsKvNt/versions/DfrD08GC/reliable_remover-neoforge-1.21.1-2.4.0.jar",
+                    "id": "DfrD08GC",
+                    "parent_id": "pLxsKvNt",
+                    "hashes": {
+                        "sha512": "913c748f4ff8e4a5051e03b6c60b617ca397623d2ee7da5cca248c27cc983647ca40fbb167ec638629bcb3405122799ad880579ece5fa63e754f87ec070b6915",
+                        "sha1": "a3ac608700f6aed8675052a4e05722904b3219ed"
+                    },
+                    "required_dependencies": [
+                        "Hl4ARA1z"
+                    ],
+                    "size": 91831,
+                    "date_published": "2026-05-11T05:55:59.549176Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "hUowjyBPUr9K628W",
             "type": "MOD",
             "side": "BOTH",
