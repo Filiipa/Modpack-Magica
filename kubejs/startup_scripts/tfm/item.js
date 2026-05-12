@@ -28,4 +28,7 @@ const registerTFMItems = (event) => {
 	event.create('tfm:white_resin')
 			.texture('tfm:item/white_resin')
 
+	event.create('tfm:spring_node')
+			.texture('tfm:item/spring_node')
+
 }

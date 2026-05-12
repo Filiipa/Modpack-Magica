@@ -1,5 +1,5 @@
-const ANIMAL_GROWTH_ITEM = 'tfc:powder/salt'
-const ANIMAL_GROWTH_ITEM_COUNT = 3
+const ANIMAL_GROWTH_ITEM = 'tfm:spring_node'
+const ANIMAL_GROWTH_ITEM_COUNT = 4
 const ANIMAL_GROWTH_MISSING_MSG = 'totemic.ceremony.animal_growth.missing'
 
 TotemicEvents.ceremonySelection('totemic:animal_growth', event => {

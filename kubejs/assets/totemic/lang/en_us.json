@@ -1,13 +1,13 @@
 {
 
 "totemic.entry.animal_growth": "Hymn of Maturity",
-"totemic.page.animal_growth0": "The $(thing)Hymn of Maturity$() is a growth Ceremony that makes $(emph)baby animals$() grow up much faster but also accelerate pregnancy.$(br2)This is an ideal ritual whenever you need new adults.$(br2)The ritual is expensive though and require $(thing)4 Fertility Node$()",
+"totemic.page.animal_growth0": "The $(thing)Hymn of Maturity$() is a growth Ceremony that makes $(emph)baby animals$() grow up much faster but also accelerate pregnancy.$(br2)This is an ideal ritual whenever you need new adults.$(br2)The ritual is expensive though and require $(thing)4 Spring Nodes$()",
 "totemic.page.animal_growth1": "$(o)Maturity is a high price to pay for growing up",
 
 "totemic.page.fertility0": "The $(thing)Rite of Spring$() allows a Totemist to trigger pregnancy for nearby $(emph)mammals$(). After activating, they will have a chance to $(emph)breed$() if $(emph)ready to mate$().$(br2)If no male is present, genetic characteristics will be randomized.",
 "totemic.page.fertility1": "Additionally, any nearby saplings will transform into $(thing)Red Cedar Saplings$().$(br2)$(o)Lover I don't have to love",
 
 "totemic.ceremony.rain.missing": "You need %s salt to invoke rain!",
-"totemic.ceremony.animal_growth.missing": "You need %s Fertility nodes to start the Hymn of Maturity!"
+"totemic.ceremony.animal_growth.missing": "You need %s Spring Nodes to start the Hymn of Maturity!"
 
 }

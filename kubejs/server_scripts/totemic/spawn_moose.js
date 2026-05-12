@@ -1,4 +1,3 @@
-/*
 let pendingMooseSpawns = []
 
 EntityEvents.spawned('totemic:buffalo', event => {
@@ -27,7 +26,7 @@ LevelEvents.tick(event => {
     toProcess.forEach(data => {
         data.buffalo.discard()
 
-        var mooseType = BuiltInRegistries.ENTITY_TYPE.get(ResourceLocation.parse('tfc:moose')) // Temporary
+        var mooseType = BuiltInRegistries.ENTITY_TYPE.get(ResourceLocation.parse('tfm:buffalo')) // Temporary
         var moose = mooseType.create(data.level)
         if (moose == null) return
 
@@ -42,4 +41,3 @@ LevelEvents.tick(event => {
         )
     })
 })
-    */
