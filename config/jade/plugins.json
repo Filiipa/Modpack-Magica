@@ -168,6 +168,7 @@
     "candle": true,
     "jack_o_lantern": true,
     "firepit": true,
+    "trip_hammer": true,
     "anemometer": true,
     "wet_concrete": true,
     "ingot_pile": true

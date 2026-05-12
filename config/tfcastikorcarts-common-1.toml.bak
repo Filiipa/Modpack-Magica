@@ -27,12 +27,6 @@
 	#
 	# Should the player's average nutrient level and thirst affect the pulling speed of carts?
 	toggleFoodSpeed = true
-	#
-	# If true, the plow cannot harvest crops. When driven over crops, it will break them
-	#but only drop the seed item, regardless of the crop's growth stage. Mature crops
-	#will not yield produce when broken by the plow.
-	#This setting encourages players to use the reaper cart for proper crop harvesting.
-	preventPlowFromHarvestingCrops = true
 
 [cartInventories]
 	#
