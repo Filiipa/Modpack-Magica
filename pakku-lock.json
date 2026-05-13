@@ -4169,49 +4169,6 @@
             ]
         },
         {
-            "pakku_id": "zHN3BjkYSkTDaaX8",
-            "pakku_links": [
-                "VDYk9xjzUaLJklov",
-                "VDUamRSVWzEhB4WL"
-            ],
-            "type": "MOD",
-            "slug": {
-                "curseforge": "kubejs-roots"
-            },
-            "name": {
-                "curseforge": "KubeJS Roots"
-            },
-            "id": {
-                "curseforge": "1118720"
-            },
-            "files": [
-                {
-                    "type": "curseforge",
-                    "file_name": "KubeJS Roots-1.0.0.jar",
-                    "mc_versions": [
-                        "1.21.1"
-                    ],
-                    "loaders": [
-                        "neoforge"
-                    ],
-                    "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/5799/367/KubeJS Roots-1.0.0.jar",
-                    "id": "5799367",
-                    "parent_id": "1118720",
-                    "hashes": {
-                        "sha1": "a934e18a59c604953216fb9fc2b8d48a2e3f6b43",
-                        "md5": "b7f7eb50093a2083ff9b5d6d72635c6f"
-                    },
-                    "required_dependencies": [
-                        "238086",
-                        "295780"
-                    ],
-                    "size": 275260,
-                    "date_published": "2024-10-10T04:13:10.390Z"
-                }
-            ]
-        },
-        {
             "pakku_id": "oWYH2jUfHIp8Q4cO",
             "pakku_links": [
                 "6Dx8A9L0tMEJGwHx",
