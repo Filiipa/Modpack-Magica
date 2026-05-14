@@ -14,8 +14,9 @@ BlockEvents.modification(event => {
 	registerAdAstraBlockModifications(event)
 })
 	*/
-/*
+
 ItemEvents.modification(event => {
+	/*
 	registerAdAstraItemModifications(event)
 	registerBeneathItemModifications(event)
 	registerCreateItemModifications(event)
@@ -23,9 +24,10 @@ ItemEvents.modification(event => {
 	registerGTCEuItemModifications(event)
 	registerMinecraftItemModifications(event)
     registerSNSItemModifications(event)
-	registerTFGItemModifications(event)
+	*/
+	registerTFMItemModifications(event)
 })
-*/
+
 StartupEvents.registry('fluid', event => {
 	registerTFGFluids(event)
 })

@@ -27,5 +27,10 @@
     "items": ["eidolon_repraised:silver_ingot"],
     "tag_type": ["item"],
     "replace_with": "tfc:metal/ingot/silver"
+    },
+    {
+    "action": "remove",
+    "items": ["hexalia:salt_lamp"],
+    "tag_type": ["item"]
     }
 ]

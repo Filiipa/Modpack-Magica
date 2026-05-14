@@ -40,5 +40,10 @@
 "tfm.emi.spawn.biome.karst_cenotes": "Karst & cenotes",
 "tfm.emi.spawn.biome.tropical_jungles": "Tropical jungles",
 "tfm.emi.spawn.biome.high_mountains": "High mountains",
-"tfm.emi.spawn.biome.rivers_lakes_oceans": "Rivers, lakes & oceans"
+"tfm.emi.spawn.biome.rivers_lakes_oceans": "Rivers, lakes & oceans",
+"tfm.codex.transform.details.title": "Looming Terror",
+"tfm.codex.transform.title": "Chant of Looming Terror",
+"tfm.codex.transform.intro.title": "Transformation",
+"tfm.codex.transform.details": "Be wary, this ancient ritual will allow you to transform a Krampus Henchman into a Krampus. This legendary monster is extremely dangerous so you better prepare before summonin it.",
+"tfm.message.no_valid_target": "No valid target."
 }

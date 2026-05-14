@@ -56,4 +56,14 @@ function registerEidolonRecipes(event) {
     event.remove({ id: 'eidolon_repraised:blast_pewter_blend'})
     event.remove({ id: 'eidolon_repraised:smelt_pewter_blend'})
 
+    // Integrate Recipes
+
+    event.remove({ id: 'eidolon_repraised:sulfur' })
+    event.recipes.eidolon_repraised.crucible(
+        'eidolon_repraised:sulfur',
+        [
+            StepIngredients.of(['tfc:powder/sulfur', 'tfc:powder/sulfur', 'tfc:powder/sulfur', 'tfc:powder/sulfur', 'eidolon_repraised:enchanted_ash'], 0)
+        ]
+    ).id('tfm:sulfur_from_crucible')
+
 }

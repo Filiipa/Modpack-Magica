@@ -163,7 +163,7 @@ function registerHexaliaRecipes(event) {
 
     event.remove({ id: 'hexalia:celestial_crystal_block_from_brazier'})
 
-//#region Ritual Table
+    //#region Ritual Table
 
     event.remove({ id: 'hexalia:ritual_table'})
     event.recipes.tfc.shaped('hexalia:ritual_table', [
@@ -175,6 +175,60 @@ function registerHexaliaRecipes(event) {
             B: 'tfc:rock/bricks/basalt',
             C: "#minecraft:coals"
         }).id('tfm:crafting/ritual_table')
+
+    // Armour gated behind Hexerei Crucible
+
+    event.remove({ id: 'hexalia:bloomwrap_hat_from_ritual_table'})
+    event.custom({
+        "type": "hexalia:ritual_table",
+        "ingredients": [
+            { "item": "minecraft:leather_helmet" },
+            { "item": "hexalia:silk_fiber" },
+            { "tag": "hexalia:tulips" },
+            { "item": "hexalia:mandrake"},
+            { "item": "hexerei:moon_dust"}
+        ],
+            "output":"hexalia:bloomwrap_hat"
+    }).id("tfm:bloomwrap_hat_from_ritual_table")
+
+    event.remove({ id: 'hexalia:bloomwrap_robes_from_ritual_table'})
+    event.custom({
+        "type": "hexalia:ritual_table",
+        "ingredients": [
+            { "item": "minecraft:leather_chestplate" },
+            { "item": "hexalia:silk_fiber" },
+            { "item": 'tfm:white_resin' },
+            { "item": "hexalia:earth_node"},
+            { "item": "hexerei:moon_dust"}
+        ],
+            "output":"hexalia:bloomwrap_robes"
+    }).id("tfm:bloomwrap_robes_from_ritual_table")
+
+    event.remove({ id: 'hexalia:bloomwrap_leggings_from_ritual_table'})
+    event.custom({
+        "type": "hexalia:ritual_table",
+        "ingredients": [
+            { "item": "minecraft:leather_leggings" },
+            { "item": "hexalia:silk_fiber" },
+            { "type": "tfm:fresh", "ingredient": { "item": 'firmalife:food/raw_honey'} },
+            { "item": "hexalia:spirit_bloom"},
+            { "item": "tfc:plant/snapdragon_pink"}
+        ],
+            "output":"hexalia:bloomwrap_leggings"
+    }).id("tfm:bloomwrap_leggings_from_ritual_table")
+
+    event.remove({ id: 'hexalia:bloomwrap_boots_from_ritual_table'})
+    event.custom({
+        "type": "hexalia:ritual_table",
+        "ingredients": [
+            { "item": "minecraft:leather_boots" },
+            { "item": "hexalia:silk_fiber" },
+            { "item": "hexalia:air_node" },
+            { "item": "minecraft:sugar" },
+            { "item": "tfc:plant/dandelion" }
+        ],
+            "output":"hexalia:bloomwrap_boots"
+    }).id("tfm:bloomwrap_boots_from_ritual_table")
 
     // Hexalia Elemental Nodes
 
@@ -221,6 +275,32 @@ function registerHexaliaRecipes(event) {
         ],
             "output":"hexalia:water_node"
     }).id("tfm:water_node_from_ritual_table")
+
+    event.remove({ id: 'hexalia:ghostveil'})
+    event.custom({
+        "type": "hexalia:ritual_table",
+        "ingredients": [
+            { "item": "minecraft:leather_chestplate" },
+            { "item": "hexalia:ghost_fern" },
+            { "item": "hexalia:ghost_fern" },
+            { "item": "hexalia:silk_fiber" },
+            { "item": "hexalia:silk_fiber" }
+        ],
+            "output":"hexalia:ghostveil"
+    }).id("tfm:ghostveil_from_ritual_table")
+
+    event.remove({ id: "hexalia:bogshade_boots"})
+    event.custom({
+        "type": "hexalia:ritual_table",
+        "ingredients": [
+            { "item": "minecraft:leather_boots" },
+            { "item": "hexalia:water_node" },
+            { "tag": "tfm:kelps" },
+            { "item": "hexalia:silk_fiber" },
+            { "item": "hexalia:silk_fiber" }
+        ],
+            "output":"hexalia:bogshade_boots"
+    }).id("tfm:bogshade_boots_from_ritual_table")
 
     // Enchanted Plants
 
@@ -444,5 +524,72 @@ function registerHexaliaRecipes(event) {
             'tfc:blow'
         ]
     ).id('tfm:rustic_bottle')
+
+    // Eidolon Crucible recipes
+
+    event.recipes.eidolon_repraised.crucible(
+    '8x hexalia:salt', //output
+    [
+        StepIngredients.of(["tfc:powder/salt", "hexalia:saltsprout"], 0),
+        StepIngredients.of(["tfc:powder/salt"], 2)
+    ]
+    ).id('tfm:salt_crucible')
+
+    // Eidolon Ritual Brazier Crafting
+
+    event.remove({ id: 'hexalia:silkweave_footwraps'})
+    event.recipes.eidolon_repraised.ritual_brazier_crafting(
+    "hexalia:silkweave_footwraps", //item output
+    "minecraft:leather_boots", //reagent
+    [ "hexalia:silk_fiber", "hexalia:silk_fiber", "hexalia:silk_fiber", "hexalia:silk_fiber" ], //pedestal items
+    ["minecraft:white_wool", "minecraft:white_wool"], //focus items
+    10.0, //health requirement
+    false //keep nbt
+    ).id('tfm:silkweave_footwraps')
+
+    event.remove({ id: 'hexalia:silkweave_bindings'})
+    event.recipes.eidolon_repraised.ritual_brazier_crafting(
+    "hexalia:silkweave_bindings", //item output
+    "minecraft:leather_leggings", //reagent
+    [ "hexalia:silk_fiber", "hexalia:silk_fiber", "hexalia:silk_fiber", "hexalia:silk_fiber" ], //pedestal items
+    ["minecraft:white_wool", "hexalia:earth_node", "minecraft:white_wool"], //focus items
+    20.0, //health requirement
+    false //keep nbt
+    ).id('tfm:silkweave_bindings')
+
+    event.remove({ id: 'hexalia:silkweave_mantle'})
+    event.recipes.eidolon_repraised.ritual_brazier_crafting(
+    "hexalia:silkweave_mantle", //item output
+    "minecraft:leather_chestplate", //reagent
+    [ "hexalia:silk_fiber", "hexalia:silk_fiber", "hexalia:silk_fiber", "hexalia:silk_fiber" ], //pedestal items
+    ["minecraft:white_wool", "hexalia:earth_node", "minecraft:white_wool"], //focus items
+    30.0, //health requirement
+    false //keep nbt
+    ).id('tfm:silkweave_mantle')
+
+    event.remove({ id: 'hexalia:silkweave_hood'})
+    event.recipes.eidolon_repraised.ritual_brazier_crafting(
+    "hexalia:silkweave_hood", //item output
+    "minecraft:leather_helmet", //reagent
+    [ "hexalia:silk_fiber", "hexalia:silk_fiber" ], //pedestal items
+    ["hexalia:earth_node" ], //focus items
+    15.0, //health requirement
+    false //keep nbt
+    ).id('tfm:silkweave_hood')
+
+    // Eidolon Magic Workben
+
+    event.recipes.eidolon_repraised.worktable(
+    'minecraft:gold_block', //output
+    ['aba', 'cdc'], //pattern
+    ['e'], //reagent pattern
+    {
+        a: 'minecraft:gold_ingot',
+        b: 'minecraft:diamond',
+        c: 'minecraft:copper_ingot',
+        d: 'minecraft:apple',
+        e:  "tfc:metal/axe/black_steel"
+    } //pattern key
+)
 
 }

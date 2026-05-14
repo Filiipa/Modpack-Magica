@@ -155,4 +155,16 @@ const registerHexereiCauldronFluidRecipes = (event) => {
  */
 const registerHexereiDipperRecipes = (event) => {
 
+  event.remove({ id: 'eidolon_repraised:arcane_seal'})
+  event.custom({
+    "type": "hexerei:dipper",
+    "fluid": { "id": "hexerei:blood_fluid", "amount": 100 },
+    "input": { "id": "eidolon_repraised:magicians_wax" },
+    "output": { "id": "eidolon_repraised:arcane_seal" },
+    "fluidLevelsConsumed": 100,
+    "dippingTime": 20*60,
+    "dryingTime": 20*60,
+    "numberOfDips": 16
+}).id("tfm:arcane_seal")
+
 }

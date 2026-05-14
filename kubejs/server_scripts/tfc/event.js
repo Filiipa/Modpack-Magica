@@ -3,6 +3,8 @@
 
 function registerTFCEvents(event) {
 
+    registerTFCDamageResistence(event)
+
     event.heat({
             ingredient: 'eidolon_repraised:lead_ingot',
             heatCapacity: 0.5
