@@ -21,6 +21,7 @@
 	quest.52A89F3328A494E2.quest_subtitle: "tfc-server.toml"
 	quest.5AA4DB7B7BA516A4.quest_desc: ["If for roleplaying reason or even increased difficulty, you feel like modifying the calendar. You got commands to do it right ingame.\\n\\n/time set MonthLength *days*\\n/time set DayLength *minutes*\\n\\nYou should be cautious of one thing though: modifying your calendar could have impact on your gameplay. Some mobs could spawn less frequently and agriculture could become really difficult. So if you want to modify this setting, think it through."]
 	task.0D5DB332CE75FBD5.title: "Time"
+	task.0F93FE21A03379AF.title: "Structure"
 	task.14C30589DF7B5B8C.title: "Food"
 	task.1B698DBACDAB1642.title: "TFC Settings"
 	task.2ED479ACDB7711B9.title: "Climate"

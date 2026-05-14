@@ -87,5 +87,33 @@ function registerTFMRecipes(event) {
         }
     }).id("tfm:conifer_rosin_ball_from_vat")
 
+    // Resin
+
+    event.custom({
+        "type": "hexerei:mixingcauldron",
+        "liquid": {
+            "id": "tfm:",
+            "amount": 1000
+        },
+        "ingredients": [
+            { "item": "hexerei:animal_fat" },
+            { "item": "hexerei:animal_fat" },
+            { "type": "tfm:fresh", "ingredient": { "item": "minecraft:honeycomb" } },
+            { "item": "hexerei:animal_fat" },
+            { "item": "hexerei:animal_fat" },
+            { "item": "hexerei:animal_fat" },
+            { "type": "tfm:fresh", "ingredient": { "item": "minecraft:honeycomb" } },
+            { "item": "hexerei:animal_fat" }
+        ],
+        "output": {
+            "id": "hexerei:tallow_impurity"
+        },
+        "liquidOutput": {
+            "id": "hexerei:tallow_fluid",
+            "amount": 1000
+        },
+        "fluidLevelsConsumed": 0
+    }).id("tfm:tallow_from_mixingcauldron")
+
 
 }

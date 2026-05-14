@@ -66,5 +66,21 @@
 			x: 1.5d
 			y: 0.0d
 		}
+		{
+			dependencies: ["2E5B8D55A0AED2F6"]
+			icon: {
+				components: {
+					"ftbquests:icon": "minecraft:textures/map/decorations/taiga_village.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "05BE382A6883EE2D"
+			tasks: [{
+				id: "0F93FE21A03379AF"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
 	]
 }

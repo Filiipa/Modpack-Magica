@@ -396,7 +396,7 @@
 			id: "277609D5F52FB34B"
 			tasks: [{
 				id: "3D5613CDD8533529"
-				item: { count: 1, id: "tfc:blast_furnace" }
+				item: { components: { "tfc:heat": { } }, count: 1, id: "tfc:blast_furnace" }
 				type: "item"
 			}]
 			x: 10.0d

@@ -592,4 +592,6 @@ function registerHexaliaRecipes(event) {
     } //pattern key
 )
 
+    // Hexerei Cauldron
+
 }
