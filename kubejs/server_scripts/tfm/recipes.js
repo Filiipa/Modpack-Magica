@@ -89,12 +89,10 @@ function registerTFMRecipes(event) {
 
     // Resin
 
+    // VERY BUGGY HEXEREI WILL REWORK THEM
     event.custom({
         "type": "hexerei:mixingcauldron",
-        "liquid": {
-            "id": "tfm:",
-            "amount": 1000
-        },
+        "output": { "id": "tfm:white_resin_ball", "count": 1 },
         "ingredients": [
             { "item": "hexerei:animal_fat" },
             { "item": "hexerei:animal_fat" },
@@ -105,15 +103,11 @@ function registerTFMRecipes(event) {
             { "type": "tfm:fresh", "ingredient": { "item": "minecraft:honeycomb" } },
             { "item": "hexerei:animal_fat" }
         ],
-        "output": {
-            "id": "hexerei:tallow_impurity"
-        },
-        "liquidOutput": {
-            "id": "hexerei:tallow_fluid",
-            "amount": 1000
-        },
-        "fluidLevelsConsumed": 0
-    }).id("tfm:tallow_from_mixingcauldron")
+        "fluid": { "id": "tfm:white_resin", "amount": 1000 },
+        "fluidOutput": { "id": "hexerei:tallow_fluid", "amount": 250 },
+        "heatRequirement": "superheated",
+        "moonRequirement": "first_quarter"
+    }).id("tfm:white_resin_ball_from_mixingcauldron")
 
 
 }

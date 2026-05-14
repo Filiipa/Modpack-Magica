@@ -197,7 +197,7 @@ function registerHexaliaRecipes(event) {
         "ingredients": [
             { "item": "minecraft:leather_chestplate" },
             { "item": "hexalia:silk_fiber" },
-            { "item": 'tfm:white_resin' },
+            { "item": 'tfm:white_resin_ball' },
             { "item": "hexalia:earth_node"},
             { "item": "hexerei:moon_dust"}
         ],
