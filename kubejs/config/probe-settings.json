@@ -1,3 +1,8 @@
 {
-    "probejs.modHash": 1348037113993277650
+    "probejs.modHash": 1348037113993277650,
+    "probejs.fullScanMods": [
+        "minecraft",
+        "kubejs",
+        "neoforge"
+    ]
 }
