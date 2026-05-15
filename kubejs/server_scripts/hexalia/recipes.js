@@ -230,6 +230,19 @@ function registerHexaliaRecipes(event) {
             "output":"hexalia:bloomwrap_boots"
     }).id("tfm:bloomwrap_boots_from_ritual_table")
 
+    event.remove({ id: 'hexalia:kelpweave_blade_from_ritual_table'})
+    event.custom({
+        "type": "hexalia:ritual_table",
+        "ingredients": [
+            { "item": "hexalia:ancient_seed" },
+            { "item": "rootsclassic:living_sword" },
+            { "item": "hexalia:water_node" },
+            { "tag": "tfm:kelps" },
+            { "item": "hexalia:siren_paste" }
+        ],
+            "output":"hexalia:kelpweave_blade"
+    }).id("tfm:kelpweave_blade_from_ritual_table")
+
     // Hexalia Elemental Nodes
 
     event.remove({ id: 'hexalia:air_node_from_ritual_table'})

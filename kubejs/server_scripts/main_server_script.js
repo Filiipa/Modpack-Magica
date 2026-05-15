@@ -63,6 +63,7 @@ ServerEvents.recipes(event => {
 	registerAFCRecipes(event)
 	registerEidolonRecipes(event)
 	registerTFMMalumRecipes(event)
+	registerRootsRecipes(event)
 
 	registerHexereiDryingRecipes(event)
 	registerHexereiMortarRecipes(event)
