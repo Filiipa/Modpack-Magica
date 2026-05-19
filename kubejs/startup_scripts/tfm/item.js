@@ -13,6 +13,9 @@ const registerTFMItems = (event) => {
 	event.create('tfm:wood_iron')
 			.texture('tfm:item/ironwood_ingot')
 
+	event.create('tfm:wood_bloom')
+			.texture('tfm:item/ironwood_bloom')
+			
 	event.create('tfm:mutated_clay_ball')
 			//.texture('tfm:item/ironwood_ingot')
 
