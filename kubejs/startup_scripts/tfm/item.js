@@ -34,4 +34,7 @@ const registerTFMItems = (event) => {
 	event.create('tfm:celestial_bronze')
 			.texture('tfm:item/celestial_bronze')
 
+	event.create('tfm:mundane_bronze')
+			.texture('tfm:item/mundane_bronze')
+
 }
